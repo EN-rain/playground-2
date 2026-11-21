@@ -1,0 +1,14 @@
+manifest_version = "0.1.0"
+
+[project]
+name = "playground-2"
+
+# Marks this directory as the workspace root. The CLI scans `include` globs for
+# nested canister manifests (src/backend/caffeine.toml, src/frontend/caffeine.toml).
+[workspace]
+include = ["src/**"]
+
+# Build the backend first — the frontend imports generated bindings from the
+# backend's Candid interface.
+[canisters.frontend]
+depends_on = ["backend"]

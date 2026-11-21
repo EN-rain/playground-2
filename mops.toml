@@ -1,0 +1,8 @@
+# Motoko build config (single mops.toml per project, at the root).
+# Add dependencies with: mops add <package>
+
+[dependencies]
+
+[toolchain]
+# Every command that compiles (build/check/test) uses the pinned moc.
+moc = "0.14.4"
