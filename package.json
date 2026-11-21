@@ -1,19 +1,59 @@
 {
-  "name": "@caffeine/template-app",
-  "type": "module",
+  "name": "samsy-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive local reconstruction of samsy.ninja using Next.js and Three.js",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "website-clone",
+    "reverse-engineering",
+    "nextjs",
+    "threejs",
+    "webgl",
+    "interactive-portfolio",
+    "samsy"
+  ],
   "engines": {
-    "node": ">=20.19.0",
-    "pnpm": ">=7.0.0",
-    "npm": "please use pnpm"
+    "node": ">=24"
   },
   "scripts": {
-    "build": "pnpm -r --if-present run build",
-    "typecheck": "pnpm -r --if-present run typecheck",
-    "check": "pnpm -r --if-present run check",
-    "fix": "pnpm -r --if-present run fix",
-    "bindgen": "caffeine-bindgen --did-file ./src/backend/dist/backend.did --out-dir ./src/frontend/src --actor-interface-file --force"
+    "dev": "next dev",
+    "dev:guard": "node scripts/dev-watchdog.mjs",
+    "build": "next build",
+    "postbuild": "node scripts/prepare-standalone.mjs",
+    "start": "node .next/standalone/server.js",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.3.0",
+    "@pixiv/three-vrm": "^3.5.5",
+    "@tailwindcss/postcss": "^4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.6.0",
+    "next": "^16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "shadcn": "^4.1.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4",
+    "three": "^0.185.1",
+    "tw-animate-css": "^1.4.0"
   },
   "devDependencies": {
-    "sharp": "^0.34.4"
+    "@gltf-transform/core": "^4.4.2",
+    "@gltf-transform/extensions": "^4.4.2",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.185.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "playwright-core": "^1.62.0",
+    "typescript": "^5"
   }
 }

@@ -1,0 +1,60 @@
+{
+  "original": {
+    "static_billboards": {
+      "motion_mad_100ms": 2.337,
+      "changed_gt8_pct": 7.006,
+      "changed_gt24_pct": 1.741,
+      "median_luma": 42.359,
+      "dark_mid_pct": 85.711,
+      "dark_mid_edge_pct": 39.89,
+      "edge_mean": 27.299
+    },
+    "architecture": {
+      "motion_mad_100ms": 2.537,
+      "changed_gt8_pct": 7.47,
+      "changed_gt24_pct": 1.731,
+      "median_luma": 45.653,
+      "dark_mid_pct": 84.231,
+      "dark_mid_edge_pct": 34.931,
+      "edge_mean": 26.323
+    },
+    "floor": {
+      "motion_mad_100ms": 1.333,
+      "changed_gt8_pct": 3.268,
+      "changed_gt24_pct": 0.544,
+      "median_luma": 37.078,
+      "dark_mid_pct": 92.064,
+      "dark_mid_edge_pct": 52.224,
+      "edge_mean": 20.803
+    }
+  },
+  "clone_production": {
+    "static_billboards": {
+      "motion_mad_100ms": 2.53,
+      "changed_gt8_pct": 6.404,
+      "changed_gt24_pct": 1.361,
+      "median_luma": 41.847,
+      "dark_mid_pct": 84.99,
+      "dark_mid_edge_pct": 18.681,
+      "edge_mean": 28.72
+    },
+    "architecture": {
+      "motion_mad_100ms": 2.632,
+      "changed_gt8_pct": 6.782,
+      "changed_gt24_pct": 1.459,
+      "median_luma": 43.5,
+      "dark_mid_pct": 84.647,
+      "dark_mid_edge_pct": 21.7,
+      "edge_mean": 30.873
+    },
+    "floor": {
+      "motion_mad_100ms": 1.519,
+      "changed_gt8_pct": 2.393,
+      "changed_gt24_pct": 0.25,
+      "median_luma": 35.789,
+      "dark_mid_pct": 95.898,
+      "dark_mid_edge_pct": 22.941,
+      "edge_mean": 16.846
+    }
+  }
+}

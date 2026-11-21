@@ -1,0 +1,417 @@
+{
+  "url": "https://samsy.ninja/",
+  "title": "SMSY-Gen02 | Award Winning Creative Graphics Engineer",
+  "readyState": "complete",
+  "bodyText": "",
+  "htmlClass": "",
+  "bodyClass": "",
+  "bodyScrollHeight": 0,
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 1
+  },
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "preloader": {
+    "html": "  <canvas width=\"128\" height=\"128\" style=\"width: 128px; height: 128px;\"></canvas>",
+    "display": "block",
+    "opacity": "1",
+    "visibility": "visible"
+  },
+  "appHtml": "",
+  "canvases": [
+    {
+      "index": 0,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "backing": {
+        "width": 300,
+        "height": 150
+      },
+      "className": "",
+      "id": "dat-canvas",
+      "position": "absolute",
+      "zIndex": "auto",
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "index": 1,
+      "rect": {
+        "x": 656,
+        "y": 386,
+        "width": 128,
+        "height": 128
+      },
+      "backing": {
+        "width": 128,
+        "height": 128
+      },
+      "className": "",
+      "id": "",
+      "position": "absolute",
+      "zIndex": "auto",
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "visibility": "visible"
+    }
+  ],
+  "elements": [],
+  "resources": [
+    {
+      "name": "https://use.typekit.net/twe8lcf.css",
+      "initiatorType": "link",
+      "transferSize": 1121,
+      "encodedBodySize": 821,
+      "decodedBodySize": 4412,
+      "duration": 178.19999998807907
+    },
+    {
+      "name": "https://samsy.ninja/assets/js/main-ITpbzWAg.js",
+      "initiatorType": "script",
+      "transferSize": 853664,
+      "encodedBodySize": 853364,
+      "decodedBodySize": 3903314,
+      "duration": 1489.300000011921
+    },
+    {
+      "name": "https://samsy.ninja/assets/css/main-rb3R8F1q.css",
+      "initiatorType": "link",
+      "transferSize": 8573,
+      "encodedBodySize": 8273,
+      "decodedBodySize": 48518,
+      "duration": 705.9000000357628
+    },
+    {
+      "name": "https://www.googletagmanager.com/gtag/js?id=G-T6R7J0D4NK",
+      "initiatorType": "script",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 282.39999997615814
+    },
+    {
+      "name": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1771",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 178.79999995231628
+    },
+    {
+      "name": "https://samsy.ninja/preloader/preloader.png",
+      "initiatorType": "img",
+      "transferSize": 458450,
+      "encodedBodySize": 458150,
+      "decodedBodySize": 458150,
+      "duration": 482.69999998807907
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/slugabedsky.opus",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 740
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/notification.opus",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 184.19999998807907
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/hi.opus",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 182.5
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/jump.opus",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 185.10000002384186
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/hover.opus",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 184.5999999642372
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/text.opus",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 297.69999998807907
+    },
+    {
+      "name": "https://samsy.ninja/vrm/owo7.vrm?gpu=true&QM%20eA",
+      "initiatorType": "fetch",
+      "transferSize": 579372,
+      "encodedBodySize": 579072,
+      "decodedBodySize": 579072,
+      "duration": 845.1999999880791
+    },
+    {
+      "name": "https://samsy.ninja/interaction/ui2.png",
+      "initiatorType": "img",
+      "transferSize": 104541,
+      "encodedBodySize": 104241,
+      "decodedBodySize": 104241,
+      "duration": 952.1999999880791
+    },
+    {
+      "name": "https://samsy.ninja/interaction/ui2.json",
+      "initiatorType": "fetch",
+      "transferSize": 2852,
+      "encodedBodySize": 2552,
+      "decodedBodySize": 51591,
+      "duration": 681.3000000119209
+    },
+    {
+      "name": "https://samsy.ninja/textures/atlasemoji.png",
+      "initiatorType": "img",
+      "transferSize": 17702,
+      "encodedBodySize": 17402,
+      "decodedBodySize": 17402,
+      "duration": 921.3999999761581
+    },
+    {
+      "name": "https://samsy.ninja/textures/noisebake.png",
+      "initiatorType": "img",
+      "transferSize": 339030,
+      "encodedBodySize": 338730,
+      "decodedBodySize": 338730,
+      "duration": 1965.3999999761581
+    },
+    {
+      "name": "https://samsy.ninja/textures/faces8.png",
+      "initiatorType": "img",
+      "transferSize": 99585,
+      "encodedBodySize": 99285,
+      "decodedBodySize": 99285,
+      "duration": 1441.2000000476837
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/derivative.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 288.89999997615814
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/derivative.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 229.80000001192093
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/derivative.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 833.3999999761581
+    },
+    {
+      "name": "https://samsy.ninja/bmfont/formadjrregular.json",
+      "initiatorType": "fetch",
+      "transferSize": 2290,
+      "encodedBodySize": 1990,
+      "decodedBodySize": 10689,
+      "duration": 247.0999999642372
+    },
+    {
+      "name": "https://samsy.ninja/videos/loading.mp4",
+      "initiatorType": "fetch",
+      "transferSize": 20115,
+      "encodedBodySize": 19815,
+      "decodedBodySize": 19815,
+      "duration": 295.10000002384186
+    },
+    {
+      "name": "https://samsy.ninja/bmfont/formadjrregular.png",
+      "initiatorType": "img",
+      "transferSize": 78682,
+      "encodedBodySize": 78382,
+      "decodedBodySize": 78382,
+      "duration": 937.8999999761581
+    },
+    {
+      "name": "https://samsy.ninja/assets/baker.worker-5z1EDtsg.js",
+      "initiatorType": "other",
+      "transferSize": 266270,
+      "encodedBodySize": 265970,
+      "decodedBodySize": 996902,
+      "duration": 528.3999999761581
+    },
+    {
+      "name": "https://samsy.ninja/bmfont/formadjrbold.json",
+      "initiatorType": "fetch",
+      "transferSize": 2251,
+      "encodedBodySize": 1951,
+      "decodedBodySize": 10539,
+      "duration": 232.5
+    },
+    {
+      "name": "https://samsy.ninja/bmfont/formadjrbold.png",
+      "initiatorType": "img",
+      "transferSize": 93177,
+      "encodedBodySize": 92877,
+      "decodedBodySize": 92877,
+      "duration": 725.0999999642372
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 342.39999997615814
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 361.60000002384186
+    },
+    {
+      "name": "https://samsy.ninja/favicons/favicon.ico",
+      "initiatorType": "other",
+      "transferSize": 15706,
+      "encodedBodySize": 15406,
+      "decodedBodySize": 15406,
+      "duration": 234.39999997615814
+    },
+    {
+      "name": "https://samsy.ninja/vrm/owo3.vrm?gpu=true&Af",
+      "initiatorType": "fetch",
+      "transferSize": 362748,
+      "encodedBodySize": 362448,
+      "decodedBodySize": 362448,
+      "duration": 952.3000000119209
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 340.30000001192093
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 279.80000001192093
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 62.5
+    },
+    {
+      "name": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=7&tfd=6789",
+      "initiatorType": "fetch",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 64.60000002384186
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 39.89999997615814
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 40
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 36.69999998807907
+    },
+    {
+      "name": "https://smsygen02.b-cdn.net/akira.webm",
+      "initiatorType": "video",
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "duration": 45.30000001192093
+    }
+  ],
+  "inspection": {
+    "contexts": [
+      {
+        "type": "2d",
+        "attributes": null,
+        "timestamp": 3313.199999988079
+      },
+      {
+        "type": "2d",
+        "attributes": null,
+        "timestamp": 3313.599999964237
+      },
+      {
+        "type": "2d",
+        "attributes": null,
+        "timestamp": 3313.599999964237
+      },
+      {
+        "type": "2d",
+        "attributes": null,
+        "timestamp": 3314.5
+      }
+    ],
+    "rafCount": 843,
+    "rafCallbacks": [
+      "f",
+      "bound update",
+      "e"
+    ]
+  },
+  "globals": {
+    "THREE": false,
+    "Vue": false,
+    "gsap": false
+  }
+}

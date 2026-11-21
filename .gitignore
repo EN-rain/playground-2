@@ -1,61 +1,59 @@
-# ---- Dependencies ----
+# Dependencies
 node_modules/
 .pnp
 .pnp.js
-.yarn/
-jspm_packages/
 
-# ---- Next.js ----
+# Build
 .next/
 out/
 build/
-next-env.d.ts
-
-# ---- Production ----
 dist/
 
-# ---- Testing / coverage ----
-coverage/
-.nyc_output/
-playwright-report/
-blob-report/
-test-results/
-
-# ---- TypeScript ----
-*.tsbuildinfo
-
-# ---- Environment / secrets ----
+# Environment
 .env
-.env.*
-!.env.example
-*.pem
-*.key
-*.p12
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# ---- Logs ----
-logs/
-*.log
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-auvrynt-logs/
 
-# ---- Local tooling / editor ----
-.serena/
-.vscode/*
-!.vscode/extensions.json
+# IDE
 .idea/
+.vscode/
 *.swp
 *.swo
 
-# ---- OS ----
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ---- Misc ----
-*.local
-.cache/
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Local settings (not project config)
+.claude/settings.local.json
+
+# User-specific skills (not part of the template)
+.claude/skills/customize/
+.claude/skills/release/
+
+# Local temp files
 temp/
-tmp/
+
+# Local recon/tooling artifacts
+.serena/
+auvrynt-logs/
+reference.blend1
+*.blend1
+.eslint-report.json
+.eslint-stderr.txt
+tsconfig.tsbuildinfo
+markers.txt

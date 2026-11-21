@@ -1,0 +1,525 @@
+{
+  "capturedAt": "2026-07-31T10:20:50.142Z",
+  "viewport": {
+    "width": 1788,
+    "height": 844
+  },
+  "targets": {
+    "original": {
+      "url": "https://samsy.ninja/",
+      "frames": [
+        {
+          "elapsedMs": 0,
+          "filename": "00-0000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        },
+        {
+          "elapsedMs": 250,
+          "filename": "01-0250ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        },
+        {
+          "elapsedMs": 500,
+          "filename": "02-0500ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        },
+        {
+          "elapsedMs": 1000,
+          "filename": "03-1000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        },
+        {
+          "elapsedMs": 2000,
+          "filename": "04-2000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        },
+        {
+          "elapsedMs": 4000,
+          "filename": "05-4000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        },
+        {
+          "elapsedMs": 6000,
+          "filename": "06-6000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r182dev webgpu"
+            },
+            "canvasCount": 2,
+            "bodyText": ""
+          }
+        }
+      ],
+      "errors": [],
+      "failures": [
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67t1h1v9227808833za200zd9227808833&_p=1785493254860&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=156339211.1785493255&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1788x844&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896802&sid=1785493255&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=4984",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://smsygen02.b-cdn.net/akira.webm",
+          "error": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67t1h1v9227808833za200zd9227808833&_p=1785493254860&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=156339211.1785493255&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1788x844&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~118897920~118897930~119896802&sid=1785493255&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=10&tfd=10002",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "resources": [
+        "https://samsy.ninja/assets/js/main-ITpbzWAg.js",
+        "https://samsy.ninja/preloader/preloader.png",
+        "https://samsy.ninja/interaction/ui2.png",
+        "https://samsy.ninja/textures/atlasemoji.png",
+        "https://samsy.ninja/textures/noisebake.png",
+        "https://samsy.ninja/textures/faces8.png",
+        "https://smsygen02.b-cdn.net/derivative.webm",
+        "https://samsy.ninja/models/cyberfix.glb",
+        "https://samsy.ninja/videos/loading.mp4",
+        "https://samsy.ninja/bmfont/formadjrregular.png",
+        "https://smsygen02.b-cdn.net/akira.webm",
+        "https://smsygen02.b-cdn.net/lightizon.webm",
+        "https://smsygen02.b-cdn.net/akira.webm",
+        "https://samsy.ninja/assets/baker.worker-5z1EDtsg.js"
+      ],
+      "mainScript": "https://samsy.ninja/assets/js/main-ITpbzWAg.js"
+    },
+    "clone": {
+      "url": "http://127.0.0.1:3003/",
+      "frames": [
+        {
+          "elapsedMs": 0,
+          "filename": "00-0000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "14.543",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 37.3 ms, 27 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        },
+        {
+          "elapsedMs": 250,
+          "filename": "01-0250ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "15.719",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 83.3 ms, 12 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        },
+        {
+          "elapsedMs": 500,
+          "filename": "02-0500ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "16.815",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 44.1 ms, 23 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        },
+        {
+          "elapsedMs": 1000,
+          "filename": "03-1000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "18.714",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 48.3 ms, 21 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        },
+        {
+          "elapsedMs": 2000,
+          "filename": "04-2000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "20.440",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 36.7 ms, 27 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        },
+        {
+          "elapsedMs": 4000,
+          "filename": "05-4000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "22.997",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 31.2 ms, 32 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        },
+        {
+          "elapsedMs": 6000,
+          "filename": "06-6000ms.png",
+          "state": {
+            "videos": [],
+            "canvasDataset": {
+              "engine": "three.js r185",
+              "floorSurface": "original-masked-reflector",
+              "floorGrid": "dual-scale-reflection-mask",
+              "floorGridSpacing": "50-unit-macro-10-unit-fine",
+              "floorReflectorResolution": "0.75",
+              "postProfile": "dark-localized-webgpu-approximation",
+              "mouseLook": "click-to-look",
+              "playerX": "46.16",
+              "playerY": "0.00",
+              "playerZ": "-180.28",
+              "groundHeight": "0.00",
+              "cameraHeading": "0.0000",
+              "cameraElevation": "-0.1200",
+              "cameraDistance": "8.38",
+              "cameraActualDistance": "8.38",
+              "cameraTargetDistance": "8.38",
+              "cameraX": "46.16",
+              "cameraY": "0.80",
+              "cameraZ": "-188.60",
+              "cameraSolver": "damped-orbit-source-restore-3",
+              "physicsProfile": "source-constants-3-substeps",
+              "cameraFov": "60.00",
+              "fogNear": "700.00",
+              "fogFar": "800.00",
+              "worldMinX": "-970.20",
+              "worldMaxX": "613.16",
+              "worldMinZ": "-936.13",
+              "worldMaxZ": "744.00",
+              "avatarScale": "1.65",
+              "speedMultiplier": "1.00",
+              "effectiveMovementSpeed": "10.00",
+              "sprinting": "true",
+              "jumpCount": "0",
+              "isGrounded": "true",
+              "animatedScreenCount": "8",
+              "playingScreenVideos": "2",
+              "screenVideoTime": "25.439",
+              "avatarPresentation": "source-vrm-with-lightweight-network-cat-proxies",
+              "cityInstanceCount": "35",
+              "worldLayout": "original-kit-instances"
+            },
+            "canvasCount": 1,
+            "bodyText": "SMSY © 26’\nクリエイティブテクノロジスト\nEXPLORE\nWORKS\nABOUT\nConnected: 1, Engine: WebGL, Frame: 29.0 ms, 34 FPS\n\nCREATIVE DEVELOPMENT\n\n& EXPERIENCE DESIGNER\n\nRAISED ON '90S CLASSICS\n\n▲\n◀\n▼\n▶\nCONTROL\nSPACE\nJUMP\nLMB: MOUSE LOOK · ESC: RELEASE · WHEEL: ZOOM · WASD: MOVE\nW\nA\nS\nD\nSPACE\nSKIP\n▂▁"
+          }
+        }
+      ],
+      "errors": [],
+      "failures": [],
+      "resources": [
+        "http://127.0.0.1:3003/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_10z625~._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_0553esy.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_115brz8._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_%40swc_helpers_cjs_0-4ujiy._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/_0rqeker._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/turbopack-_0p44nws._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_0tt2wve._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/src_app_layout_tsx_004glpo._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/src_components_samsy_CyberCityCanvas_tsx_0jl.-6k._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/src_app_page_tsx_0-0lnb2._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_next_dist_client_components_builtin_global-error_0-0lnb2.js",
+        "http://127.0.0.1:3003/_next/static/chunks/_0148-u2._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_10mygs7._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_three_build_three_core_0qefhn6.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_three_build_three_module_024z3_h.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_three_examples_jsm_0y7v5h7._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/node_modules_%40pixiv_three-vrm_lib_three-vrm_module_12fk5gq.js",
+        "http://127.0.0.1:3003/_next/static/chunks/src_0_a~a~6._.js",
+        "http://127.0.0.1:3003/_next/static/chunks/src_components_samsy_CyberCityCanvas_tsx_0pn5s59._.js",
+        "http://127.0.0.1:3003/models/cyberfix.glb",
+        "http://127.0.0.1:3003/textures/bump-floor_fxrdig.jpg",
+        "http://127.0.0.1:3003/videos/works/derivative.webm",
+        "http://127.0.0.1:3003/videos/works/akira.webm"
+      ],
+      "mainScript": null
+    }
+  }
+}

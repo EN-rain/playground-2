@@ -1,0 +1,155 @@
+{
+  "target": "original",
+  "url": "https://samsy.ninja/",
+  "capturedAt": "2026-07-30T12:53:36.959Z",
+  "frameCaptureMethod": "Chrome DevTools Protocol Page.startScreencast",
+  "everyNthFrame": 1,
+  "totalFrames": 1951,
+  "durationSeconds": 58.409,
+  "averageFrameIntervalMs": 29.953,
+  "medianFrameIntervalMs": 26.143,
+  "phaseCounts": {
+    "idle": 45,
+    "forward": 191,
+    "forward-right": 178,
+    "right": 100,
+    "backward-right": 133,
+    "backward": 216,
+    "backward-left": 120,
+    "left": 122,
+    "forward-left": 152,
+    "jump-forward": 108,
+    "camera-sweep-forward": 548,
+    "settle": 38
+  },
+  "consoleErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785415913113&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=462173456.1785415913&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118395335~118897920~118897930~119896803&sid=1785415913&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1801",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785415913113&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=462173456.1785415913&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938469~118395335~118897920~118897930~119896803&sid=1785415913&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=7&tfd=6810",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785415913113&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=462173456.1785415913&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938469~118395335~118897920~118897930~119896803&dl=https%3A%2F%2Fsamsy.ninja%2Ftutorial&dr=https%3A%2F%2Fsamsy.ninja%2F&sid=1785415913&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=14906&tfd=21722",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785415913113&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=462173456.1785415913&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=4&tag_exp=115938465~115938469~118395335~118897920~118897930~119896803&dl=https%3A%2F%2Fsamsy.ninja%2F&dr=https%3A%2F%2Fsamsy.ninja%2Ftutorial&sid=1785415913&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=23472&tfd=45224",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "inputLog": [
+    {
+      "phase": "forward",
+      "type": "hold",
+      "codes": [
+        "KeyW"
+      ],
+      "durationMs": 6000,
+      "startedAt": 49189.525,
+      "endedAt": 55217.3116
+    },
+    {
+      "phase": "forward-right",
+      "type": "hold",
+      "codes": [
+        "KeyW",
+        "KeyD"
+      ],
+      "durationMs": 4500,
+      "startedAt": 55217.3394,
+      "endedAt": 59759.2885
+    },
+    {
+      "phase": "right",
+      "type": "hold",
+      "codes": [
+        "KeyD"
+      ],
+      "durationMs": 3500,
+      "startedAt": 59759.3024,
+      "endedAt": 63275.4805
+    },
+    {
+      "phase": "backward-right",
+      "type": "hold",
+      "codes": [
+        "KeyS",
+        "KeyD"
+      ],
+      "durationMs": 4500,
+      "startedAt": 63275.5049,
+      "endedAt": 67827.6545
+    },
+    {
+      "phase": "backward",
+      "type": "hold",
+      "codes": [
+        "KeyS"
+      ],
+      "durationMs": 6000,
+      "startedAt": 67827.6648,
+      "endedAt": 73843.5021
+    },
+    {
+      "phase": "backward-left",
+      "type": "hold",
+      "codes": [
+        "KeyS",
+        "KeyA"
+      ],
+      "durationMs": 4500,
+      "startedAt": 73843.5142,
+      "endedAt": 78372.6261
+    },
+    {
+      "phase": "left",
+      "type": "hold",
+      "codes": [
+        "KeyA"
+      ],
+      "durationMs": 3500,
+      "startedAt": 78372.665,
+      "endedAt": 81895.0923
+    },
+    {
+      "phase": "forward-left",
+      "type": "hold",
+      "codes": [
+        "KeyW",
+        "KeyA"
+      ],
+      "durationMs": 4500,
+      "startedAt": 81895.1194,
+      "endedAt": 86425.5568
+    },
+    {
+      "phase": "jump-forward",
+      "type": "jump-move",
+      "codes": [
+        "KeyW",
+        "Space"
+      ],
+      "durationMs": 3000,
+      "startedAt": 86425.7663,
+      "endedAt": 89487.5102
+    },
+    {
+      "phase": "camera-sweep-forward",
+      "type": "pointer-sweep",
+      "codes": [
+        "KeyW"
+      ],
+      "durationMs": 5000,
+      "startedAt": 89487.7895,
+      "endedAt": 104990.4539
+    }
+  ]
+}

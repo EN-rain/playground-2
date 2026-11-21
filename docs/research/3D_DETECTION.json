@@ -1,0 +1,52 @@
+{
+  "target": "https://samsy.ninja/",
+  "detected": true,
+  "evidence": "extracted",
+  "originalRuntime": {
+    "framework": "Vue",
+    "graphics": ["Three.js", "WebGPU", "WebGL fallback"],
+    "observedContext": "webgpu",
+    "observedAtViewport": {
+      "width": 1440,
+      "height": 900,
+      "devicePixelRatio": 1
+    },
+    "observedCanvasCountAfterLoad": 1,
+    "observedStatsText": "Connected: 2, Engine: WebGPU"
+  },
+  "fingerprints": {
+    "three": true,
+    "webgpu": true,
+    "webgl": true,
+    "gltf": true,
+    "vrm": true,
+    "draco": true,
+    "ktx2": true,
+    "meshopt": true,
+    "gsap": true,
+    "videoTextures": true,
+    "raycasting": true,
+    "keyboardMovement": true,
+    "joystickControls": true
+  },
+  "primaryAssets": [
+    "/models/cyberfix.glb",
+    "/vrm/owo3.vrm",
+    "/vrm/owo7.vrm",
+    "/textures/noisebake.png",
+    "/textures/faces8.png",
+    "/textures/bump-floor_fxrdig.jpg"
+  ],
+  "sourceEvidence": [
+    "docs/research/samsy/runtime/network.json",
+    "docs/research/samsy/runtime/t15.json",
+    "docs/research/samsy/runtime/t60.json",
+    "docs/research/samsy/raw/main.js",
+    "docs/research/samsy/cyberfix-structure.json"
+  ],
+  "cloneRuntime": {
+    "framework": "Next.js 16 / React 19",
+    "graphics": "Three.js WebGL",
+    "reason": "WebGL provides broader compatibility while preserving the observable scene and interaction system. The original private WebGPU renderer and shaders were not directly recoverable."
+  }
+}

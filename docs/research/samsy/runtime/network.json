@@ -1,0 +1,1293 @@
+{
+  "requests": [
+    {
+      "url": "https://samsy.ninja/",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1785394263625
+    },
+    {
+      "url": "https://use.typekit.net/twe8lcf.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1785394264666
+    },
+    {
+      "url": "https://samsy.ninja/assets/js/main-ITpbzWAg.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1785394264667
+    },
+    {
+      "url": "https://samsy.ninja/assets/css/main-rb3R8F1q.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1785394264667
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-T6R7J0D4NK",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1785394264667
+    },
+    {
+      "url": "https://p.typekit.net/p.css?s=1&k=twe8lcf&ht=tk&f=30349.30350.30351.30354.30355.30356&a=3525586&app=typekit&e=css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1785394264843
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1771",
+      "method": "POST",
+      "resourceType": "fetch",
+      "timestamp": 1785394265395
+    },
+    {
+      "url": "https://samsy.ninja/preloader/preloader.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394266452
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/slugabedsky.opus",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267023
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/notification.opus",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267026
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/hi.opus",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267026
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/jump.opus",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267026
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/hover.opus",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267026
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/text.opus",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267026
+    },
+    {
+      "url": "https://samsy.ninja/vrm/owo7.vrm?gpu=true&QM%20eA",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267026
+    },
+    {
+      "url": "https://samsy.ninja/interaction/ui2.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394267028
+    },
+    {
+      "url": "https://samsy.ninja/interaction/ui2.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267028
+    },
+    {
+      "url": "https://samsy.ninja/textures/atlasemoji.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394267028
+    },
+    {
+      "url": "https://samsy.ninja/textures/noisebake.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394267028
+    },
+    {
+      "url": "https://samsy.ninja/textures/faces8.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394267028
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394267028
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394267315
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394267550
+    },
+    {
+      "url": "blob:https://samsy.ninja/459f7b7b-682f-44ee-aaeb-599e77f72222",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267881
+    },
+    {
+      "url": "https://samsy.ninja/assets/baker.worker-5z1EDtsg.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1785394267928
+    },
+    {
+      "url": "https://samsy.ninja/models/cyberfix.glb",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267950
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrregular.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267951
+    },
+    {
+      "url": "https://samsy.ninja/videos/loading.mp4",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394267951
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrregular.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394267951
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrbold.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394268248
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrbold.png",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394268248
+    },
+    {
+      "url": "blob:https://samsy.ninja/f74fb9ae-799d-40b6-970f-7afadb7d9a14",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394268249
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394268250
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/lightizon.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394268545
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394268749
+    },
+    {
+      "url": "blob:https://samsy.ninja/22dffe6b-2c1f-4d1d-90ce-9c53cc0138c8",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394268842
+    },
+    {
+      "url": "https://samsy.ninja/vrm/owo3.vrm?gpu=true&Af",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394269121
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394269282
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394269815
+    },
+    {
+      "url": "blob:https://samsy.ninja/ab1e082d-751a-417a-9927-dc9724518c81",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394270077
+    },
+    {
+      "url": "blob:https://samsy.ninja/6d1c700c-9b03-45f7-a3a7-cf9e358a8935",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394270109
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394270349
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=7&tfd=6789",
+      "method": "POST",
+      "resourceType": "fetch",
+      "timestamp": 1785394270411
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394270616
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394270815
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394271015
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394271349
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394271616
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394271949
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394272216
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394272482
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394272749
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394273016
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394273349
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394273549
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394274184
+    },
+    {
+      "url": "blob:https://samsy.ninja/215ab3cc-cde3-4638-a1d2-57496b478a01",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/17d67419-d219-4163-b01e-d228a6fbc0e5",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/b56ab10f-d6c2-45df-b5e1-c317cd3e012a",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/5ccbfaa7-03c8-444e-9bc9-fb454d7e4636",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/7b0b85ab-0d76-4d30-b85b-f54ff29361d0",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/a9b66816-a0f2-42ee-88f1-0950aa4d7852",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/5c634f93-5155-4709-b070-e05c1f84975e",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/1e0f11a2-a5ae-40b1-a482-ac1a9f8f7538",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274269
+    },
+    {
+      "url": "blob:https://samsy.ninja/4757585e-0910-4947-a750-5a849092f490",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274270
+    },
+    {
+      "url": "blob:https://samsy.ninja/3a66dbfb-f8f1-40d3-bad5-8d0d36517e62",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274271
+    },
+    {
+      "url": "blob:https://samsy.ninja/680f83a0-ea06-41d8-b0e1-250e66196fe6",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274271
+    },
+    {
+      "url": "blob:https://samsy.ninja/d11eaac5-c385-4b61-9972-448369d78795",
+      "method": "GET",
+      "resourceType": "fetch",
+      "timestamp": 1785394274271
+    },
+    {
+      "url": "https://samsy.ninja/textures/bump-floor_fxrdig.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394275451
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394275474
+    },
+    {
+      "url": "https://samsy.ninja/front/quest4.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394277780
+    },
+    {
+      "url": "https://use.typekit.net/af/f088ed/00000000000000007759f955/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1785394277800
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&dl=https%3A%2F%2Fsamsy.ninja%2Ftutorial&dr=https%3A%2F%2Fsamsy.ninja%2F&sid=1785394265&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=13396&tfd=20184",
+      "method": "POST",
+      "resourceType": "fetch",
+      "timestamp": 1785394283807
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "method": "GET",
+      "resourceType": "media",
+      "timestamp": 1785394294289
+    },
+    {
+      "url": "https://use.typekit.net/af/9a9570/00000000000000007759f976/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1785394301317
+    },
+    {
+      "url": "https://use.typekit.net/af/d2ae80/00000000000000007759f932/31/l?subset_id=2&fvd=n6&v=3",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1785394301317
+    },
+    {
+      "url": "https://samsy.ninja/front/triangle.svg",
+      "method": "GET",
+      "resourceType": "image",
+      "timestamp": 1785394301318
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=4&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&dl=https%3A%2F%2Fsamsy.ninja%2F&dr=https%3A%2F%2Fsamsy.ninja%2Ftutorial&sid=1785394265&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=23459&tfd=43657",
+      "method": "POST",
+      "resourceType": "fetch",
+      "timestamp": 1785394307283
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://samsy.ninja/",
+      "status": 200,
+      "resourceType": "document",
+      "contentType": "text/html",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394264661
+    },
+    {
+      "url": "https://use.typekit.net/twe8lcf.css",
+      "status": 200,
+      "resourceType": "stylesheet",
+      "contentType": "text/css;charset=utf-8",
+      "contentLength": "821",
+      "cacheControl": "private, max-age=600, stale-while-revalidate=604800",
+      "timestamp": 1785394264843
+    },
+    {
+      "url": "https://p.typekit.net/p.css?s=1&k=twe8lcf&ht=tk&f=30349.30350.30351.30354.30355.30356&a=3525586&app=typekit&e=css",
+      "status": 200,
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "contentLength": "5",
+      "cacheControl": "public, max-age=604800",
+      "timestamp": 1785394264932
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-T6R7J0D4NK",
+      "status": 200,
+      "resourceType": "script",
+      "contentType": "application/javascript; charset=UTF-8",
+      "contentLength": "166828",
+      "cacheControl": "private, max-age=900",
+      "timestamp": 1785394264954
+    },
+    {
+      "url": "https://samsy.ninja/assets/css/main-rb3R8F1q.css",
+      "status": 200,
+      "resourceType": "stylesheet",
+      "contentType": "text/css",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394265369
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1771",
+      "status": 204,
+      "resourceType": "fetch",
+      "contentType": "text/plain",
+      "contentLength": "0",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "timestamp": 1785394265575
+    },
+    {
+      "url": "https://samsy.ninja/assets/js/main-ITpbzWAg.js",
+      "status": 200,
+      "resourceType": "script",
+      "contentType": "application/x-javascript",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394266180
+    },
+    {
+      "url": "https://samsy.ninja/preloader/preloader.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "458150",
+      "cacheControl": null,
+      "timestamp": 1785394266686
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/hi.opus",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "6290",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267203
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/notification.opus",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "1139",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267206
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/hover.opus",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "346",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267206
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/jump.opus",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "1627",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267206
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/slugabedsky.opus",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "965399",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267223
+    },
+    {
+      "url": "https://samsy.ninja/vrm/owo7.vrm?gpu=true&QM%20eA",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "579072",
+      "cacheControl": null,
+      "timestamp": 1785394267262
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/text.opus",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "468",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267283
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1228530",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267284
+    },
+    {
+      "url": "https://samsy.ninja/interaction/ui2.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "104241",
+      "cacheControl": null,
+      "timestamp": 1785394267513
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "16114",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267550
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1195762",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394267551
+    },
+    {
+      "url": "https://samsy.ninja/interaction/ui2.json",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/json",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394267706
+    },
+    {
+      "url": "blob:https://samsy.ninja/459f7b7b-682f-44ee-aaeb-599e77f72222",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "203920",
+      "cacheControl": null,
+      "timestamp": 1785394267883
+    },
+    {
+      "url": "https://samsy.ninja/textures/atlasemoji.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "17402",
+      "cacheControl": null,
+      "timestamp": 1785394267947
+    },
+    {
+      "url": "https://samsy.ninja/textures/noisebake.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "338730",
+      "cacheControl": null,
+      "timestamp": 1785394267972
+    },
+    {
+      "url": "https://samsy.ninja/textures/faces8.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "99285",
+      "cacheControl": null,
+      "timestamp": 1785394267996
+    },
+    {
+      "url": "https://samsy.ninja/assets/baker.worker-5z1EDtsg.js",
+      "status": 200,
+      "resourceType": "script",
+      "contentType": "application/x-javascript",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394268195
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrregular.json",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/json",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394268198
+    },
+    {
+      "url": "https://samsy.ninja/models/cyberfix.glb",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "model/gltf-binary",
+      "contentLength": "2955512",
+      "cacheControl": null,
+      "timestamp": 1785394268227
+    },
+    {
+      "url": "https://samsy.ninja/videos/loading.mp4",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "video/mp4",
+      "contentLength": "19815",
+      "cacheControl": null,
+      "timestamp": 1785394268239
+    },
+    {
+      "url": "blob:https://samsy.ninja/f74fb9ae-799d-40b6-970f-7afadb7d9a14",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/mp4",
+      "contentLength": "19815",
+      "cacheControl": null,
+      "timestamp": 1785394268250
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1911610",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394268383
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrbold.json",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/json",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394268481
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrregular.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "78382",
+      "cacheControl": null,
+      "timestamp": 1785394268642
+    },
+    {
+      "url": "https://samsy.ninja/bmfont/formadjrbold.png",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/png",
+      "contentLength": "92877",
+      "cacheControl": null,
+      "timestamp": 1785394268724
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1649466",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394268752
+    },
+    {
+      "url": "blob:https://samsy.ninja/22dffe6b-2c1f-4d1d-90ce-9c53cc0138c8",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "203920",
+      "cacheControl": null,
+      "timestamp": 1785394268852
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/lightizon.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1579123",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394268943
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1583930",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394269284
+    },
+    {
+      "url": "https://samsy.ninja/vrm/owo3.vrm?gpu=true&Af",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "application/octet-stream",
+      "contentLength": "362448",
+      "cacheControl": null,
+      "timestamp": 1785394269376
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1518394",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394269818
+    },
+    {
+      "url": "blob:https://samsy.ninja/ab1e082d-751a-417a-9927-dc9724518c81",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "99856",
+      "cacheControl": null,
+      "timestamp": 1785394270077
+    },
+    {
+      "url": "blob:https://samsy.ninja/6d1c700c-9b03-45f7-a3a7-cf9e358a8935",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "99856",
+      "cacheControl": null,
+      "timestamp": 1785394270112
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1485626",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394270351
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=7&tfd=6789",
+      "status": 204,
+      "resourceType": "fetch",
+      "contentType": "text/plain",
+      "contentLength": "0",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "timestamp": 1785394270477
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1420090",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394270618
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1452858",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394270817
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1354554",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394271018
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1321786",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394271352
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1289018",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394271618
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1256250",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394271951
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1223482",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394272218
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1190714",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394272484
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1157946",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394272752
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1125178",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394273018
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1092410",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394273352
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1059642",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394273552
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "994106",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394274187
+    },
+    {
+      "url": "blob:https://samsy.ninja/215ab3cc-cde3-4638-a1d2-57496b478a01",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "190663",
+      "cacheControl": null,
+      "timestamp": 1785394274275
+    },
+    {
+      "url": "blob:https://samsy.ninja/17d67419-d219-4163-b01e-d228a6fbc0e5",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "50547",
+      "cacheControl": null,
+      "timestamp": 1785394274275
+    },
+    {
+      "url": "blob:https://samsy.ninja/b56ab10f-d6c2-45df-b5e1-c317cd3e012a",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "197536",
+      "cacheControl": null,
+      "timestamp": 1785394274275
+    },
+    {
+      "url": "blob:https://samsy.ninja/5ccbfaa7-03c8-444e-9bc9-fb454d7e4636",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "54785",
+      "cacheControl": null,
+      "timestamp": 1785394274275
+    },
+    {
+      "url": "blob:https://samsy.ninja/7b0b85ab-0d76-4d30-b85b-f54ff29361d0",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "243748",
+      "cacheControl": null,
+      "timestamp": 1785394274276
+    },
+    {
+      "url": "blob:https://samsy.ninja/a9b66816-a0f2-42ee-88f1-0950aa4d7852",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "52607",
+      "cacheControl": null,
+      "timestamp": 1785394274276
+    },
+    {
+      "url": "blob:https://samsy.ninja/5c634f93-5155-4709-b070-e05c1f84975e",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "100616",
+      "cacheControl": null,
+      "timestamp": 1785394274276
+    },
+    {
+      "url": "blob:https://samsy.ninja/1e0f11a2-a5ae-40b1-a482-ac1a9f8f7538",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "161541",
+      "cacheControl": null,
+      "timestamp": 1785394274277
+    },
+    {
+      "url": "blob:https://samsy.ninja/4757585e-0910-4947-a750-5a849092f490",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "144736",
+      "cacheControl": null,
+      "timestamp": 1785394274277
+    },
+    {
+      "url": "blob:https://samsy.ninja/3a66dbfb-f8f1-40d3-bad5-8d0d36517e62",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "109052",
+      "cacheControl": null,
+      "timestamp": 1785394274277
+    },
+    {
+      "url": "blob:https://samsy.ninja/680f83a0-ea06-41d8-b0e1-250e66196fe6",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "93543",
+      "cacheControl": null,
+      "timestamp": 1785394274278
+    },
+    {
+      "url": "blob:https://samsy.ninja/d11eaac5-c385-4b61-9972-448369d78795",
+      "status": 200,
+      "resourceType": "fetch",
+      "contentType": "image/jpeg",
+      "contentLength": "194037",
+      "cacheControl": null,
+      "timestamp": 1785394274278
+    },
+    {
+      "url": "https://samsy.ninja/textures/bump-floor_fxrdig.jpg",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/jpeg",
+      "contentLength": "323468",
+      "cacheControl": null,
+      "timestamp": 1785394275454
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "961338",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394275541
+    },
+    {
+      "url": "https://use.typekit.net/af/f088ed/00000000000000007759f955/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "status": 200,
+      "resourceType": "font",
+      "contentType": "application/font-woff2",
+      "contentLength": "33164",
+      "cacheControl": "public, max-age=31536000",
+      "timestamp": 1785394277931
+    },
+    {
+      "url": "https://samsy.ninja/front/quest4.svg",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/svg+xml",
+      "contentLength": null,
+      "cacheControl": null,
+      "timestamp": 1785394278012
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&dl=https%3A%2F%2Fsamsy.ninja%2Ftutorial&dr=https%3A%2F%2Fsamsy.ninja%2F&sid=1785394265&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=13396&tfd=20184",
+      "status": 204,
+      "resourceType": "fetch",
+      "contentType": "text/plain",
+      "contentLength": "0",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "timestamp": 1785394283868
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "status": 206,
+      "resourceType": "media",
+      "contentType": "video/webm",
+      "contentLength": "1911610",
+      "cacheControl": "public, max-age=2592000",
+      "timestamp": 1785394294296
+    },
+    {
+      "url": "https://use.typekit.net/af/9a9570/00000000000000007759f976/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "status": 200,
+      "resourceType": "font",
+      "contentType": "application/font-woff2",
+      "contentLength": "38220",
+      "cacheControl": "public, max-age=31536000",
+      "timestamp": 1785394301370
+    },
+    {
+      "url": "https://samsy.ninja/front/triangle.svg",
+      "status": 200,
+      "resourceType": "image",
+      "contentType": "image/svg+xml",
+      "contentLength": "305",
+      "cacheControl": null,
+      "timestamp": 1785394301559
+    },
+    {
+      "url": "https://use.typekit.net/af/d2ae80/00000000000000007759f932/31/l?subset_id=2&fvd=n6&v=3",
+      "status": 200,
+      "resourceType": "font",
+      "contentType": "application/font-woff2",
+      "contentLength": "27884",
+      "cacheControl": "public, max-age=31536000",
+      "timestamp": 1785394302767
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=4&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&dl=https%3A%2F%2Fsamsy.ninja%2F&dr=https%3A%2F%2Fsamsy.ninja%2Ftutorial&sid=1785394265&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=23459&tfd=43657",
+      "status": 204,
+      "resourceType": "fetch",
+      "contentType": "text/plain",
+      "contentLength": "0",
+      "cacheControl": "no-cache, no-store, must-revalidate",
+      "timestamp": 1785394307344
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1771",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/derivative.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&sid=1785394265&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=7&tfd=6789",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://smsygen02.b-cdn.net/akira.webm",
+      "resourceType": "media",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=3&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&dl=https%3A%2F%2Fsamsy.ninja%2Ftutorial&dr=https%3A%2F%2Fsamsy.ninja%2F&sid=1785394265&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=13396&tfd=20184",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67s1v9227808833za200zd9227808833&_p=1785394265370&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=873016137.1785394265&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=4&tag_exp=115938465~115938468~118897920~118897930~119896803~120084215&dl=https%3A%2F%2Fsamsy.ninja%2F&dr=https%3A%2F%2Fsamsy.ninja%2Ftutorial&sid=1785394265&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=23459&tfd=43657",
+      "resourceType": "fetch",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

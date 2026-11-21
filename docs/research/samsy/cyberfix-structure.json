@@ -1,0 +1,2587 @@
+{
+  "file": "public/models/cyberfix.glb",
+  "scenes": [
+    {
+      "name": "Scene",
+      "children": [
+        "block_0",
+        "block_1",
+        "block_2",
+        "distributor_0",
+        "distributor_1",
+        "bite",
+        "garbage",
+        "crossing_0",
+        "crossing_1",
+        "tower",
+        "map",
+        "barrier",
+        "wall_0",
+        "wall_1",
+        "mac",
+        "sega",
+        "gate",
+        "buildingramp",
+        "genjitsu_logo",
+        "samsy_logo",
+        "jap_writing_1",
+        "jap_writing_2",
+        "nintendo",
+        "notnyc_logo"
+      ]
+    }
+  ],
+  "cameras": [],
+  "nodes": [
+    {
+      "index": 0,
+      "name": "billboard_0_screen",
+      "parent": "block_0",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 1,
+      "name": "building_0",
+      "parent": "block_0",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 2,
+      "name": "building_0_collision",
+      "parent": "block_0",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.016",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 3,
+      "name": "block_0",
+      "parent": null,
+      "children": [
+        "billboard_0_screen",
+        "building_0",
+        "building_0_collision"
+      ],
+      "translation": [
+        62.28948211669922,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 4,
+      "name": "billboard_1_screen",
+      "parent": "block_1",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 5,
+      "name": "building_1",
+      "parent": "block_1",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 6,
+      "name": "building_1_collision",
+      "parent": "block_1",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Cube.003",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 7,
+      "name": "block_1",
+      "parent": null,
+      "children": [
+        "billboard_1_screen",
+        "building_1",
+        "building_1_collision"
+      ],
+      "translation": [
+        68.28633117675781,
+        0,
+        54.818363189697266
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 8,
+      "name": "billboard_2_screen",
+      "parent": "block_2",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1.002",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 9,
+      "name": "building_2",
+      "parent": "block_2",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.002",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 10,
+      "name": "building_2_collision",
+      "parent": "block_2",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.015",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 11,
+      "name": "block_2",
+      "parent": null,
+      "children": [
+        "billboard_2_screen",
+        "building_2",
+        "building_2_collision"
+      ],
+      "translation": [
+        47.056129455566406,
+        0,
+        -70.55757904052734
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 12,
+      "name": "distributor_0_base",
+      "parent": "distributor_0",
+      "children": [],
+      "translation": [
+        12.532581329345703,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.004",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 13,
+      "name": "distributor_0_screen",
+      "parent": "distributor_0",
+      "children": [],
+      "translation": [
+        12.532581329345703,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1.004",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 14,
+      "name": "distributor_0",
+      "parent": null,
+      "children": [
+        "distributor_0_base",
+        "distributor_0_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 15,
+      "name": "distributor_1_base",
+      "parent": "distributor_1",
+      "children": [],
+      "translation": [
+        12.532581329345703,
+        0.012532580643892288,
+        12.532581329345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_2.003",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 16,
+      "name": "distributor_1_screen",
+      "parent": "distributor_1",
+      "children": [],
+      "translation": [
+        12.532581329345703,
+        0,
+        12.532581329345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_3",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 17,
+      "name": "distributor_1",
+      "parent": null,
+      "children": [
+        "distributor_1_base",
+        "distributor_1_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 18,
+      "name": "bite_base",
+      "parent": "bite",
+      "children": [],
+      "translation": [
+        12.532581329345703,
+        0,
+        -12.532581329345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_4",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 19,
+      "name": "bite_screen_rotate",
+      "parent": "bite",
+      "children": [],
+      "translation": [
+        12.532581329345703,
+        0,
+        -12.532581329345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_5",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 20,
+      "name": "bite",
+      "parent": null,
+      "children": [
+        "bite_base",
+        "bite_screen_rotate"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 21,
+      "name": "garbage_base",
+      "parent": "garbage",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        -12.532581329345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_6",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 22,
+      "name": "garbage_screen",
+      "parent": "garbage",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        -12.532581329345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_7",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 23,
+      "name": "garbage",
+      "parent": null,
+      "children": [
+        "garbage_base",
+        "garbage_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 24,
+      "name": "crossing_0_screen_nocollider",
+      "parent": "crossing_0",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        -35.35750961303711
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_8",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 25,
+      "name": "crossing_0",
+      "parent": null,
+      "children": [
+        "crossing_0_screen_nocollider"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 26,
+      "name": "crossing_1_screen_nocollider",
+      "parent": "crossing_1",
+      "children": [],
+      "translation": [
+        18.685293197631836,
+        0,
+        -35.22153854370117
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_9",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 27,
+      "name": "crossing_1",
+      "parent": null,
+      "children": [
+        "crossing_1_screen_nocollider"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 28,
+      "name": "tower_base",
+      "parent": "tower",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        25.065162658691406
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_10",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 29,
+      "name": "tower_screen",
+      "parent": "tower",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        25.065162658691406
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_11",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 30,
+      "name": "tower",
+      "parent": null,
+      "children": [
+        "tower_base",
+        "tower_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 31,
+      "name": "map_base",
+      "parent": "map",
+      "children": [],
+      "translation": [
+        -25.065162658691406,
+        0,
+        -25.065162658691406
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_13",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 32,
+      "name": "map_screen",
+      "parent": "map",
+      "children": [],
+      "translation": [
+        -25.065162658691406,
+        0,
+        -25.065162658691406
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_14",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 33,
+      "name": "map",
+      "parent": null,
+      "children": [
+        "map_base",
+        "map_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 34,
+      "name": "barrier_screen",
+      "parent": "barrier",
+      "children": [],
+      "translation": [
+        -18.225740432739258,
+        0,
+        -32.873130798339844
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_12",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 35,
+      "name": "barrier",
+      "parent": null,
+      "children": [
+        "barrier_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 36,
+      "name": "wall_0_screen",
+      "parent": "wall_0",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        110.73788452148438
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.003",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 37,
+      "name": "wall_0",
+      "parent": null,
+      "children": [
+        "wall_0_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 38,
+      "name": "wall_1_screen",
+      "parent": "wall_1",
+      "children": [],
+      "translation": [
+        57.36162567138672,
+        0,
+        110.98853302001953
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1.003",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 39,
+      "name": "wall_1",
+      "parent": null,
+      "children": [
+        "wall_1_screen"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 40,
+      "name": "mac_screen_rotate",
+      "parent": "mac",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_5.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 41,
+      "name": "mac",
+      "parent": null,
+      "children": [
+        "mac_screen_rotate"
+      ],
+      "translation": [
+        -42.79999923706055,
+        0,
+        40.279998779296875
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 42,
+      "name": "sega_screen_rotate",
+      "parent": "sega",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_6.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 43,
+      "name": "sega",
+      "parent": null,
+      "children": [
+        "sega_screen_rotate"
+      ],
+      "translation": [
+        0,
+        0,
+        63.97999572753906
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 44,
+      "name": "gate_screen_nocollider",
+      "parent": "gate",
+      "children": [],
+      "translation": [
+        44.68000030517578,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.011",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 45,
+      "name": "gate",
+      "parent": null,
+      "children": [
+        "gate_screen_nocollider"
+      ],
+      "translation": [
+        -78.58000183105469,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 46,
+      "name": "ramp",
+      "parent": "buildingramp",
+      "children": [],
+      "translation": [
+        49.74588394165039,
+        0,
+        -132.70599365234375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_2.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 47,
+      "name": "ramp_collision.001",
+      "parent": "buildingramp",
+      "children": [],
+      "translation": [
+        49.745880126953125,
+        0,
+        -132.70599365234375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1.007",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 48,
+      "name": "ramp_screen",
+      "parent": "buildingramp",
+      "children": [],
+      "translation": [
+        49.745880126953125,
+        0,
+        -132.70599365234375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.010",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 49,
+      "name": "buildingramp",
+      "parent": null,
+      "children": [
+        "ramp",
+        "ramp_collision.001",
+        "ramp_screen"
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 50,
+      "name": "genjitsu_screen_rotate",
+      "parent": "genjitsu_logo",
+      "children": [],
+      "translation": [
+        -41.89063262939453,
+        0,
+        -25.868253707885742
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_0.005",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 51,
+      "name": "genjitsu_logo",
+      "parent": null,
+      "children": [
+        "genjitsu_screen_rotate"
+      ],
+      "translation": [
+        -16.920000076293945,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 52,
+      "name": "samsy_screen_rotate",
+      "parent": "samsy_logo",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_1.008",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 53,
+      "name": "samsy_logo",
+      "parent": null,
+      "children": [
+        "samsy_screen_rotate"
+      ],
+      "translation": [
+        -54.5,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 54,
+      "name": "jap_screen_rotate.001",
+      "parent": "jap_writing_1",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_2.002",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 55,
+      "name": "jap_writing_1",
+      "parent": null,
+      "children": [
+        "jap_screen_rotate.001"
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 56,
+      "name": "jap_screen_rotate",
+      "parent": "jap_writing_2",
+      "children": [],
+      "translation": [
+        -33.70025634765625,
+        0,
+        -40.4035530090332
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_3.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 57,
+      "name": "jap_writing_2",
+      "parent": null,
+      "children": [
+        "jap_screen_rotate"
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 58,
+      "name": "nintendo_screen_rotate",
+      "parent": "nintendo",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_4.001",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 59,
+      "name": "nintendo",
+      "parent": null,
+      "children": [
+        "nintendo_screen_rotate"
+      ],
+      "translation": [
+        4.26990270614624,
+        0,
+        -0.38765645027160645
+      ],
+      "rotation": [
+        -0.70710688829422,
+        0,
+        0,
+        0.7071066498756409
+      ],
+      "scale": [
+        100,
+        99.99998474121094,
+        99.99998474121094
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 60,
+      "name": "notnyc_logo_screen_rotate",
+      "parent": "notnyc_logo",
+      "children": [],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": "Mesh_6.002",
+      "camera": null,
+      "skin": null,
+      "weights": []
+    },
+    {
+      "index": 61,
+      "name": "notnyc_logo",
+      "parent": null,
+      "children": [
+        "notnyc_logo_screen_rotate"
+      ],
+      "translation": [
+        32.7599983215332,
+        0,
+        50.41999816894531
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": null,
+      "camera": null,
+      "skin": null,
+      "weights": []
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "Mesh_1",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Material_1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Mesh_0",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Material_0",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Mesh_0.016",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Mesh_1.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Material_1.001",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Mesh_0.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Material_0.001",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Cube.003",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Mesh_1.002",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Material_1.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Mesh_0.002",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Material_0.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Mesh_0.015",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Mesh_0.004",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propsitem",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "Mesh_1.004",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "Mesh_2.003",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propsitem",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Mesh_3",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "Mesh_4",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propsitem",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "Mesh_5",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "Mesh_6",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propsitem",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "Mesh_7",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "Mesh_8",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "Mesh_9",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "Mesh_10",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propsitem",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "Mesh_11",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "wallmaterial",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "Mesh_13",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propsitem",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "Mesh_14",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "name": "Mesh_12",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "propscreen",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Mesh_0.003",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "wallmaterial",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "name": "Mesh_1.003",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "wallmaterial",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "name": "Mesh_5.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "holo3D",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "Mesh_6.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "holo3D",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "name": "Mesh_0.011",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "wallmaterial",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "name": "Mesh_2.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.1",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "name": "Mesh_1.007",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": null,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "name": "Mesh_0.010",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "name": "Mesh_0.005",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "name": "Mesh_1.008",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "name": "Mesh_2.002",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "name": "Mesh_3.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "name": "Mesh_4.001",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "name": "Mesh_6.002",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": "Mat.002",
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "targets": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "Material_1",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "unlit": true
+    },
+    {
+      "index": 1,
+      "name": "Material_0",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "unlit": true
+    },
+    {
+      "index": 2,
+      "name": "Material_1.001",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "unlit": true
+    },
+    {
+      "index": 3,
+      "name": "Material_0.001",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "unlit": true
+    },
+    {
+      "index": 4,
+      "name": "Material_1.002",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "unlit": true
+    },
+    {
+      "index": 5,
+      "name": "Material_0.002",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "unlit": true
+    },
+    {
+      "index": 6,
+      "name": "propsitem",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "unlit": true
+    },
+    {
+      "index": 7,
+      "name": "propscreen",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "unlit": true
+    },
+    {
+      "index": 8,
+      "name": "wallmaterial",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "unlit": true
+    },
+    {
+      "index": 9,
+      "name": "holo3D",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "unlit": true
+    },
+    {
+      "index": 10,
+      "name": "Mat.1",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.5,
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "unlit": false
+    },
+    {
+      "index": 11,
+      "name": "Mat",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.5,
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "unlit": false
+    },
+    {
+      "index": 12,
+      "name": "Mat.002",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.9,
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "unlit": true
+    }
+  ],
+  "animations": [],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ]
+}

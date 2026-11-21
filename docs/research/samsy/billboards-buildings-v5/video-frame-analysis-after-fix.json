@@ -1,0 +1,240 @@
+{
+  "samples_ms": [
+    0,
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000,
+    2100,
+    2200,
+    2300
+  ],
+  "report": {
+    "original": {
+      "left_static": {
+        "mean_abs_diff_100ms": 1.616,
+        "changed_gt8_pct": 5.857,
+        "changed_gt24_pct": 1.599,
+        "bright_luma_mean": 89.079,
+        "bright_luma_cv_pct": 0.452,
+        "building_candidate_pct": 91.022,
+        "building_candidate_luma": 40.429,
+        "mean_rgb": [
+          54.99,
+          44.2,
+          56.23
+        ]
+      },
+      "top_center_static": {
+        "mean_abs_diff_100ms": 2.612,
+        "changed_gt8_pct": 7.97,
+        "changed_gt24_pct": 3.393,
+        "bright_luma_mean": 98.354,
+        "bright_luma_cv_pct": 0.142,
+        "building_candidate_pct": 75.066,
+        "building_candidate_luma": 55.351,
+        "mean_rgb": [
+          72.82,
+          75.41,
+          89.19
+        ]
+      },
+      "right_static": {
+        "mean_abs_diff_100ms": 3.344,
+        "changed_gt8_pct": 13.854,
+        "changed_gt24_pct": 3.771,
+        "bright_luma_mean": 93.654,
+        "bright_luma_cv_pct": 0.892,
+        "building_candidate_pct": 83.329,
+        "building_candidate_luma": 49.514,
+        "mean_rgb": [
+          64.55,
+          61.94,
+          77.73
+        ]
+      },
+      "center_video": {
+        "mean_abs_diff_100ms": 3.355,
+        "changed_gt8_pct": 14.689,
+        "changed_gt24_pct": 3.344,
+        "bright_luma_mean": 78.956,
+        "bright_luma_cv_pct": 1.242,
+        "building_candidate_pct": 65.502,
+        "building_candidate_luma": 59.675,
+        "mean_rgb": [
+          89.84,
+          63.7,
+          80.15
+        ]
+      },
+      "architecture_gaps": {
+        "mean_abs_diff_100ms": 2.856,
+        "changed_gt8_pct": 11.407,
+        "changed_gt24_pct": 3.173,
+        "bright_luma_mean": 89.49,
+        "bright_luma_cv_pct": 0.471,
+        "building_candidate_pct": 80.06,
+        "building_candidate_luma": 50.457,
+        "mean_rgb": [
+          69.7,
+          59.82,
+          75.47
+        ]
+      },
+      "floor": {
+        "mean_abs_diff_100ms": 1.651,
+        "changed_gt8_pct": 5.803,
+        "changed_gt24_pct": 1.193,
+        "bright_luma_mean": 81.982,
+        "bright_luma_cv_pct": 0.652,
+        "building_candidate_pct": 92.136,
+        "building_candidate_luma": 43.162,
+        "mean_rgb": [
+          53.79,
+          46.29,
+          64.7
+        ]
+      }
+    },
+    "clone": {
+      "left_static": {
+        "mean_abs_diff_100ms": 1.226,
+        "changed_gt8_pct": 2.045,
+        "changed_gt24_pct": 0.794,
+        "bright_luma_mean": 94.963,
+        "bright_luma_cv_pct": 0.091,
+        "building_candidate_pct": 78.402,
+        "building_candidate_luma": 41.049,
+        "mean_rgb": [
+          68.13,
+          49.09,
+          70.01
+        ]
+      },
+      "top_center_static": {
+        "mean_abs_diff_100ms": 3.271,
+        "changed_gt8_pct": 9.451,
+        "changed_gt24_pct": 4.757,
+        "bright_luma_mean": 104.99,
+        "bright_luma_cv_pct": 2.469,
+        "building_candidate_pct": 74.143,
+        "building_candidate_luma": 52.589,
+        "mean_rgb": [
+          83.43,
+          72.63,
+          86.27
+        ]
+      },
+      "right_static": {
+        "mean_abs_diff_100ms": 2.626,
+        "changed_gt8_pct": 6.813,
+        "changed_gt24_pct": 3.168,
+        "bright_luma_mean": 95.942,
+        "bright_luma_cv_pct": 1.667,
+        "building_candidate_pct": 76.893,
+        "building_candidate_luma": 50.393,
+        "mean_rgb": [
+          81.02,
+          62.33,
+          78.89
+        ]
+      },
+      "center_video": {
+        "mean_abs_diff_100ms": 3.156,
+        "changed_gt8_pct": 8.066,
+        "changed_gt24_pct": 3.756,
+        "bright_luma_mean": 95.886,
+        "bright_luma_cv_pct": 1.833,
+        "building_candidate_pct": 70.467,
+        "building_candidate_luma": 59.538,
+        "mean_rgb": [
+          93.72,
+          76.85,
+          91.42
+        ]
+      },
+      "architecture_gaps": {
+        "mean_abs_diff_100ms": 2.437,
+        "changed_gt8_pct": 6.096,
+        "changed_gt24_pct": 2.772,
+        "bright_luma_mean": 96.501,
+        "bright_luma_cv_pct": 1.295,
+        "building_candidate_pct": 74.639,
+        "building_candidate_luma": 51.309,
+        "mean_rgb": [
+          81.06,
+          62.84,
+          80.85
+        ]
+      },
+      "floor": {
+        "mean_abs_diff_100ms": 1.747,
+        "changed_gt8_pct": 5.866,
+        "changed_gt24_pct": 1.298,
+        "bright_luma_mean": 82.548,
+        "bright_luma_cv_pct": 1.2,
+        "building_candidate_pct": 85.011,
+        "building_candidate_luma": 42.035,
+        "mean_rgb": [
+          61.78,
+          44.92,
+          71.19
+        ]
+      }
+    }
+  },
+  "comparison": {
+    "left_static": {
+      "motion_ratio": 0.759,
+      "changed_gt8_ratio": 0.349,
+      "building_fraction_delta_pp": -12.62,
+      "building_luma_delta": 0.62
+    },
+    "top_center_static": {
+      "motion_ratio": 1.252,
+      "changed_gt8_ratio": 1.186,
+      "building_fraction_delta_pp": -0.923,
+      "building_luma_delta": -2.762
+    },
+    "right_static": {
+      "motion_ratio": 0.785,
+      "changed_gt8_ratio": 0.492,
+      "building_fraction_delta_pp": -6.436,
+      "building_luma_delta": 0.879
+    },
+    "center_video": {
+      "motion_ratio": 0.941,
+      "changed_gt8_ratio": 0.549,
+      "building_fraction_delta_pp": 4.965,
+      "building_luma_delta": -0.137
+    },
+    "architecture_gaps": {
+      "motion_ratio": 0.853,
+      "changed_gt8_ratio": 0.534,
+      "building_fraction_delta_pp": -5.421,
+      "building_luma_delta": 0.852
+    },
+    "floor": {
+      "motion_ratio": 1.058,
+      "changed_gt8_ratio": 1.011,
+      "building_fraction_delta_pp": -7.125,
+      "building_luma_delta": -1.127
+    }
+  }
+}

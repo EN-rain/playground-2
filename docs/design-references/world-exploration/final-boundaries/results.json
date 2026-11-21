@@ -1,0 +1,66 @@
+[
+  {
+    "name": "north-end",
+    "passed": true,
+    "state": {
+      "engine": "three.js r185",
+      "playerX": "-7.50",
+      "playerZ": "-69.20",
+      "cameraHeading": "3.1416",
+      "cameraDistance": "18.00",
+      "cameraTargetDistance": "18.00",
+      "worldMinX": "-31.71",
+      "worldMaxX": "16.82",
+      "worldMinZ": "-69.20",
+      "worldMaxZ": "10.69"
+    }
+  },
+  {
+    "name": "south-end",
+    "passed": true,
+    "state": {
+      "engine": "three.js r185",
+      "playerX": "-7.50",
+      "playerZ": "10.69",
+      "cameraHeading": "3.1416",
+      "cameraDistance": "18.00",
+      "cameraTargetDistance": "18.00",
+      "worldMinX": "-31.71",
+      "worldMaxX": "16.82",
+      "worldMinZ": "-69.20",
+      "worldMaxZ": "10.69"
+    }
+  },
+  {
+    "name": "west-end",
+    "passed": true,
+    "state": {
+      "engine": "three.js r185",
+      "playerX": "-31.25",
+      "playerZ": "-20.00",
+      "cameraHeading": "3.1416",
+      "cameraDistance": "18.00",
+      "cameraTargetDistance": "18.00",
+      "worldMinX": "-31.71",
+      "worldMaxX": "16.82",
+      "worldMinZ": "-69.20",
+      "worldMaxZ": "10.69"
+    }
+  },
+  {
+    "name": "east-end",
+    "passed": true,
+    "state": {
+      "engine": "three.js r185",
+      "playerX": "16.28",
+      "playerZ": "-13.81",
+      "cameraHeading": "3.1416",
+      "cameraDistance": "18.00",
+      "cameraTargetDistance": "18.00",
+      "worldMinX": "-31.71",
+      "worldMaxX": "16.82",
+      "worldMinZ": "-69.20",
+      "worldMaxZ": "10.69"
+    }
+  }
+]

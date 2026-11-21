@@ -1,0 +1,110 @@
+ialCompleted(){this.isNotFinished||(B6(Ni.TUTORIAL),Z.emit(Y.TUTORIAL_COMPLETED,!0))}activate(){return new Promise((e,t)=>{this.startupTimer(),this.enabled=!0,this.fullResolve=e;
+const i=3,s=Ce.z+2,n={x:0,y:Math.PI,z:0},
+a={x:.5,y:.5,z:.5};
+let o=new j0(16711731).convertSRGBToLinear(),l=[o.r,o.g,o.b];
+this.interactions=[],Y0?(a.x=.75,a.y=.75,a.z=.75,this.joystickInteraction=On.get({opacity:0,callback:()=>{},
+atlas:"generic_joystick_left",rotation:n,position:{x:Ce.x+1,y:i,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.joystickInteraction),this.buttonInteraction=On.get({opacity:0,callback:()=>{},
+atlas:"generic_button_finger",rotation:n,position:{x:Ce.x-1,y:i,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.buttonInteraction),this.listenJoystickMoveEvent=u=>{this.trigger(this.joystickInteraction),Z.off(Y.JOYSTICK_MOVE,this.listenJoystickMoveEvent)},
+Z.on(Y.JOYSTICK_MOVE,this.listenJoystickMoveEvent),this.listenButtonPressEvent=u=>{this.trigger(this.buttonInteraction),Z.off(Y.BUTTON_PRESSED,this.listenButtonPressEvent)},
+Z.on(Y.BUTTON_PRESSED,this.listenButtonPressEvent)):(this.leftInteraction=On.get({opacity:0,callback:()=>{this.trigger(this.leftInteraction)},
+key:["ArrowLeft","KeyA"],atlas:"keyboard_arrow_left",rotation:n,position:{x:Ce.x+4,y:i,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.leftInteraction),this.upInteraction=On.get({opacity:0,callback:()=>{this.trigger(this.upInteraction)},
+key:["ArrowUp","KeyW"],atlas:"keyboard_arrow_up",rotation:n,position:{x:Ce.x+2,y:i+1.5,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.upInteraction),this.rightInteraction=On.get({opacity:0,callback:()=>{this.trigger(this.rightInteraction)},
+key:["ArrowRight","KeyD"],atlas:"keyboard_arrow_right",rotation:n,position:{x:Ce.x,y:i,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.rightInteraction),this.downInteraction=On.get({opacity:0,callback:()=>{this.trigger(this.downInteraction)},
+key:["ArrowDown","KeyS"],atlas:"keyboard_arrow_down",rotation:n,position:{x:Ce.x+2,y:i,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.downInteraction),this.spaceInteraction=On.get({opacity:0,callback:()=>{this.trigger(this.spaceInteraction)},
+key:["Space"],atlas:"keyboard_space",rotation:n,position:{x:Ce.x-4,y:i,z:s},
+scale:a,color:l,source:Q0.capsule}),this.interactions.push(this.spaceInteraction)),this.appear()})}toggleKeys(){this.enabled!=!1&&(Y0?(this.joystickInteraction.atlas=="generic_joystick_left"?this.joystickInteraction.atlas="generic_joystick_right":this.joystickInteraction.atlas="generic_joystick_left",this.buttonInteraction.atlas=="generic_button_finger"?this.buttonInteraction.atlas="generic_button_finger_pressed":this.buttonInteraction.atlas="generic_button_finger"):(this.toggleKey(this.leftInteraction,this.keyBoardLeft,"left"),this.toggleKey(this.rightInteraction,this.keyBoardRight,"right"),this.toggleKey(this.upInteraction,this.keyBoardUp,"up"),this.toggleKey(this.downInteraction,this.keyBoardDown,"down"),this.spaceInteraction.atlas=="keyboard_space_outline"?this.spaceInteraction.atlas="keyboard_space":this.spaceInteraction.atlas="keyboard_space_outline"),X0.delayedCall(.75,()=>{this.toggleKeys()}))}toggleKey(e,t,i){if(e.callback==null)return;
+const s="keyboard_arrow_"+i,n=s+"_outline",a="keyboard_"+t.toLowerCase(),o=a+"_outline";
+switch(e.atlas){case s:e.atlas=n;
+break;
+case n:e.atlas=a;
+break;
+case a:e.atlas=o;
+break;
+case o:e.atlas=s;
+break}}async hide(){this.tween&&this.tween.kill(),et.remove(this.circle),this.isNotFinished=!0,Y0?(await this.trigger(this.joystickInteraction,!1),await this.trigger(this.buttonInteraction,!1),Z.off(Y.JOYSTICK_MOVE,this.listenJoystickMoveEvent),Z.off(Y.BUTTON_PRESSED,this.listenButtonPressEvent)):(await this.trigger(this.leftInteraction,!1),await this.trigger(this.rightInteraction,!1),await this.trigger(this.upInteraction,!1),await this.trigger(this.downInteraction,!1),await this.trigger(this.spaceInteraction,!1)),this.enabled=!1}appear(){let i=0;
+for(;
+i<this.interactions.length;
+){let s=i==this.interactions.length-1;
+const n=this.interactions[i];
+n.tween&&n.tween.kill(),n.opacity=0,n.tween=X0.to(n,{duration:1,delay:1.5+i*.2,opacity:1,onUpdate:()=>{n.opacity=Math.max(0,n.opacity*Math.random())},
+onComplete:()=>{n.opacity=1,s&&this.toggleKeys()}}),i++}}trigger(e,t=!0){return new Promise((i,s)=>{if(this.killTimer(),e.callback==null){i();
+return}e.callback=null,e.tween&&e.tween.kill();
+let n={opacity:e.opacity||1};
+t==!0&&Z.emit(Y.HOVER),X0.to(n,{duration:.15,opacity:0,onUpdate:()=>{e.opacity=Math.max(0,n.opacity*Math.random())},
+onComplete:()=>{On.remove(e),i()}});
+let a={y:e.position.y};
+X0.to(a,{duration:.15,y:a.y+1,ease:"power2.inOut",onUpdate:()=>{e.position={x:e.position.x,y:a.y,z:e.position.z}}}),this.completeInteraction++,this.completeInteraction>=this.interactions.length&&(this.markTutorialCompleted(),t&&this.fullResolve())})}}const pv=new ac0;
+function oc0(){return new Promise(r=>{const e=document.createElement("video");
+document.body.appendChild(e),e.crossOrigin="anonymous",e.loop=!0,e.muted=!0,e.setAttribute("playsinline",""),e.controls=!1,e.playsInline=!0;
+let t=!1;
+const i=setTimeout(()=>{s(),r(!0)},
+3e3),s=()=>{e&&e.parentNode&&(e.pause(),document.body.removeChild(e)),clearTimeout(i)};
+e.addEventListener("canplay",()=>{t||(t=!0,e.play().then(()=>{s(),r(!1)}).catch(n=>{s(),r(!0)}))}),e.addEventListener("error",n=>{s(),r(!0)}),e.src="data:video/mp4;
+base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAAAr9tZGF0AAACoAYF//+c3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDEyNSAtIEguMjY0L01QRUctNCBBVkMgY29kZWMgLSBDb3B5bGVmdCAyMDAzLTIwMTIgLSBodHRwOi8vd3d3LnZpZGVvbGFuLm9yZy94MjY0Lmh0bWwgLSBvcHRpb25zOiBjYWJhYz0xIHJlZj0zIGRlYmxvY2s9MTowOjAgYW5hbHlzZT0weDM6MHgxMTMgbWU9aGV4IHN1Ym1lPTcgcHN5PTEgcHN5X3JkPTEuMDA6MC4wMCBtaXhlZF9yZWY9MSBtZV9yYW5nZT0xNiBjaHJvbWFfbWU9MSB0cmVsbGlzPTEgOHg4ZGN0PTEgY3FtPTAgZGVhZHpvbmU9MjEsMTEgZmFzdF9wc2tpcD0xIGNocm9tYV9xcF9vZmZzZXQ9LTIgdGhyZWFkcz02IGxvb2thaGVhZF90aHJlYWRzPTEgc2xpY2VkX3RocmVhZHM9MCBucj0wIGRlY2ltYXRlPTEgaW50ZXJsYWNlZD0wIGJsdXJheV9jb21wYXQ9MCBjb25zdHJhaW5lZF9pbnRyYT0wIGJmcmFtZXM9MyBiX3B5cmFtaWQ9MiBiX2FkYXB0PTEgYl9iaWFzPTAgZGlyZWN0PTEgd2VpZ2h0Yj0xIG9wZW5fZ29wPTAgd2VpZ2h0cD0yIGtleWludD0yNTAga2V5aW50X21pbj0yNCBzY2VuZWN1dD00MCBpbnRyYV9yZWZyZXNoPTAgcmNfbG9va2FoZWFkPTQwIHJjPWNyZiBtYnRyZWU9MSBjcmY9MjMuMCBxY29tcD0wLjYwIHFwbWluPTAgcXBtYXg9NjkgcXBzdGVwPTQgaXBfcmF0aW89MS40MCBhcT0xOjEuMDAAgAAAAA9liIQAV/0TAAYdeBTXzg8AAALvbW9vdgAAAGxtdmhkAAAAAAAAAAAAAAAAAAAD6AAAACoAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAhl0cmFrAAAAXHRraGQAAAAPAAAAAAAAAAAAAAABAAAAAAAAACoAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAgAAAAIAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAAqAAAAAAABAAAAAAGRbWRpYQAAACBtZGhkAAAAAAAAAAAAAAAAAAAwAAAAAgBVxAAAAAAALWhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABWaWRlb0hhbmRsZXIAAAABPG1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAAPxzdGJsAAAAmHN0c2QAAAAAAAAAAQAAAIhhdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgACABIAAAASAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGP//AAAAMmF2Y0MBZAAK/+EAGWdkAAqs2V+WXAWyAAADAAIAAAMAYB4kSywBAAZo6+PLIsAAAAAYc3R0cwAAAAAAAAABAAAAAQAAAgAAAAAcc3RzYwAAAAAAAAABAAAAAQAAAAEAAAABAAAAFHN0c3oAAAAAAAACtwAAAAEAAAAUc3RjbwAAAAAAAAABAAAAMAAAAGJ1ZHRhAAAAWm1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAG1kaXJhcHBsAAAAAAAAAAAAAAAALWlsc3QAAAAlqXRvbwAAAB1kYXRhAAAAAQAAAABMYXZmNTQuNjMuMTA0",e.load()})}const kI=["ArrowUp","ArrowUp","ArrowDown","ArrowDown","ArrowLeft","ArrowRight","ArrowLeft","ArrowRight","b","a"];
+let yl=[],ww=null;
+function TW(r){const e=kI[yl.length];
+r.key===e?(yl.push(r.key),yl.length===kI.length&&lc0()):yl=[]}function lc0(){document.removeEventListener("keydown",TW),ww&&ww(),yl=[]}function uc0(r){ww=r,yl=[],document.addEventListener("keydown",TW)}const ad={x:3500,y:1800};
+function cc0(r,e){let t=0,i=0,s=1;
+t=r*s,i=e*s,t*i>ad.x*ad.y&&(t=ad.x,i=ad.y);
+const n=Math.sqrt(t*i),a=n*n;
+let o=r,l=e;
+if(r*e>a){const u=l/o;
+o=n,l=Math.floor(n*u);
+let c=o*l;
+const h=Math.sqrt(a/c);
+o=Math.floor(o*h),l=Math.floor(l*h)}return{width:o,height:l}}var br={TOUCH_MOVE:"touchmove",TOUCH_START:"touchstart",TOUCH_END:"touchend",TOUCH_CANCEL:"touchcancel"};
+const FI=new P,DI=new P;
+class hc0{constructor(){i0(this,"play",()=>new Promise(async(e,t)=>{if(this._isPlaying){e();
+return}this.addEvents(),this.now=Date.now(),_L!=null&&X0.ticker.fps(_L),X0.ticker.add(this.updateEvent),this._isPlaying=!0,Z.emit(Y.PLAY,null),e()}));
+i0(this,"pause",()=>new Promise((e,t)=>{if(this._isPlaying==!1){e();
+return}this.removeEvents(),this._isPlaying=!1,Z.emit(Y.PAUSE,null),e()}));
+i0(this,"mousedown",e=>{if(this.toggleFirstClick(),this.isDragging=!0,e.changedTouches)for(let t=0;
+t<e.changedTouches.length;
+t++){let i=e.changedTouches[t];
+this.touches[i.identifier]={startX:i.clientX,startY:i.clientY,clientX:i.clientX,clientY:i.clientY,dx:0,dy:0}}this.timeStampTap=Date.now(),this.mouseDownStorage=this.getMouseData(e),this.lastMouseDown=this.getMouseData(e)});
+i0(this,"mousedown2",e=>{this.toggleFirstClick()});
+i0(this,"firstClick",!1);
+aa&&document.addEventListener("contextmenu",function(e){e.preventDefault()}),this._lastPlaying=!1,this._isPlaying=!1,this.now=Date.now(),this.absTimer=0,this.w=0,this.h=0,this.lastW=0,this.lastH=0,this.timeStampTap=null,this.mousemoveRef=this.mousemove.bind(this),this.mousedownRef=this.mousedown.bind(this),this.mouseDownRef2=this.mousedown2.bind(this),this.mouseupRef=this.mouseup.bind(this),this.mouseLeaveRef=this.mouseLeave.bind(this),this.updateEvent=this.update.bind(this),this.mouseWheelRef=this.mouseWheel.bind(this),this.visibilityRef=this.visibility.bind(this),this.keydownRef=this.keydown.bind(this),this.keyupRef=this.keyup.bind(this),this.clickRef=this.click.bind(this),this.dblClickRef=this.dblClick.bind(this),this.canvasBoundingRect={left:0,top:0},
+this.isDragging=!1,this.firstTouch={},
+this.endTouch={normalized:{x:0,y:0},
+raw:{x:0,y:0}},
+this.touches={},
+this.multitouch=!1,this.isPinching=!1,this.mouseMovedStorage=null,this.mouseUpStorage=null,this.mouseDownStorage=null,this.mouseClickStorage=null,this.mouseDblClickStorage=null,this.wheelStorage=null,this.mousemovePackets=[],this.pinchZoomStorage=null,this.pinchStartStorage=null,this.pinchEndStorage=null,this.lastMouseDown={normalized:{x:0,y:0},
+raw:{x:0,y:0}},
+f3&&(globalThis.mediator=this)}update(e=!1,t=null){let i=Date.now(),s=(i-this.now)/1e3;
+e==!0&&(s=0),this.mouseDownStorage!=null&&(Z.emit(Y.MOUSE_DOWN,this.mouseDownStorage),this.mouseDownStorage=null),this.mouseMovedStorage!=null&&(this.mouseMovedStorage.mousemovePackets=this.mousemovePackets,Z.emit(Y.MOUSE_MOVE,this.mouseMovedStorage),this.mouseMovedStorage=null,this.mousemovePackets=[]),this.mouseUpStorage!=null&&(Z.emit(Y.MOUSE_UP,this.mouseUpStorage),this.mouseUpStorage=null),this.mouseClickStorage!=null&&(Z.emit(Y.CLICK,this.mouseClickStorage),this.mouseClickStorage=null),this.wheelStorage!=null&&(Z.emit(Y.WHEEL,this.wheelStorage),this.wheelStorage=null),this.pinchStartStorage!=null&&(Z.emit(Y.PINCH_START,this.pinchStartStorage),this.pinchStartStorage=null),this.pinchEndStorage!=null&&(Z.emit(Y.PINCH_END,this.pinchEndStorage),this.pinchEndStorage=null),this.pinchZoomStorage!=null&&(Z.emit(Y.PINCH_ZOOM,this.pinchZoomStorage),this.pinchZoomStorage=null),this.now=i,this.absTimer+=s,Z.emit(Y.DAWN_UPDATE,s,this.absTimer),Z.emit(Y.PRE_UPDATE,s,this.absTimer),Z.emit(Y.BEFORE_RENDER,s,this.absTimer),Z.emit(Y.UPDATE,s,this.absTimer),Z.emit(Y.POST_UPDATE,s,this.absTimer),Z.emit(Y.DUSK_UPDATE,s,this.absTimer)}addEvents(){bL?(K0.addEventListener(br.TOUCH_MOVE,this.mousemoveRef),K0.addEventListener(br.TOUCH_START,this.mousedownRef),K0.addEventListener(br.TOUCH_END,this.mouseupRef),K0.addEventListener(br.TOUCH_CANCEL,this.mouseupRef),window.addEventListener(Y.CLICK,this.mouseDownRef2)):(window.addEventListener(Y.MOUSE_LEAVE,this.mouseLeaveRef),K0.addEventListener(Y.MOUSE_MOVE,this.mousemoveRef),K0.addEventListener(Y.MOUSE_DOWN,this.mousedownRef),K0.addEventListener(Y.MOUSE_UP,this.mouseupRef),window.addEventListener(Y.KEY_DOWN,this.keydownRef),window.addEventListener(Y.KEY_UP,this.keyupRef),window.addEventListener(Y.CLICK,this.clickRef),K0.addEventListener(Y.WHEEL,this.mouseWheelRef,!1)),window.addEventListener(Y.VISIBILITY,this.visibilityRef)}removeEvents(){bL?(K0.removeEventListener(br.TOUCH_MOVE,this.mousemoveRef),K0.removeEventListener(br.TOUCH_START,this.mousedownRef),K0.removeEventListener(br.TOUCH_END,this.mouseupRef),K0.removeEventListener(br.TOUCH_CANCEL,this.mouseupRef),window.removeEventListener(br.TOUCH_START,this.mouseDownRef2),window.removeEventListener(br.TOUCH_END,this.mouseDownRef2)):(window.removeEventListener(Y.MOUSE_LEAVE,this.mouseLeaveRef),K0.removeEventListener(Y.MOUSE_MOVE,this.mousemoveRef),K0.removeEventListener(Y.MOUSE_DOWN,this.mousedownRef),K0.removeEventListener(Y.MOUSE_UP,this.mouseupRef),window.removeEventListener(Y.KEY_DOWN,this.keydownRef),window.removeEventListener(Y.KEY_UP,this.keyupRef),window.removeEventListener(Y.CLICK,this.clickRef),K0.removeEventListener(Y.WHEEL,this.mouseWheelRef))}visibility(){Z.emit(Y.VISIBILITY,document.visibilityState!="hidden")}toggleFirstClick(){this.firstClick==!1&&(CT(),this.firstClick=!0)}mouseLeave(e){this.isDragging==!0&&this.mouseup(e),Z.emit(Y.MOUSE_LEAVE,e)}mouseup(e){if(this.isDragging=!1,e.changedTouches){for(let s=0;
+s<e.changedTouches.length;
+s++){let n=e.changedTouches[s];
+delete this.touches[n.identifier]}e.targetTouches.length!=2&&(this.prevPinchDistance=null,this.pinchZoomStorage=null,this.isPinching&&(this.pinchEndStorage={},
+this.isPinching=!1),this.pinchStartStorage=null),e.targetTouches.length<2&&(this.multitouch=!1)}if(this.multitouch)return;
+this.mouseUpStorage=this.getMouseData(e);
+let t;
+if(e.isVR)FI.setFromMatrixPosition(this.mouseUpStorage.controller.matrixWorld),DI.setFromMatrixPosition(this.lastMouseDown.controller.matrixWorld),FI.distanceToSquared(DI)<.1&&(this.mouseClickStorage=this.mouseUpStorage);
+else{const s=this.mouseUpStorage.raw.x-this.lastMouseDown.raw.x,n=this.mouseUpStorage.raw.y-this.lastMouseDown.raw.y;
+t=Math.sqrt(s*s+n*n)}const i=Date.now()-this.timeStampTap;
+t<10&&i<1e3&&(this.mouseClickStorage=this.getMouseData(e))}click(e){this.toggleFirstClick(),this.mouseClickStorage=this.getMouseData(e)}mousemove(e){if(q9(!0),e.changedTouches){for(let i=0;
+i<e.changedTouches.length;
+i++){const s=e.changedTouches[i];
+let n=this.touches[s.identifier];
+n&&(n.dx=s.clientX-n.clientX,n.dy=s.clientY-n.clientY,n.clientX=s.clientX,n.clientY=s.clientY)}if(e.targetTouches.length===2&&this.handlePinchZoom(e),this.multitouch)return}let t=this.getMouseData(e);
+e.isVR||(t.origin={normalized:this.lastMouseDown.normalized,raw:this.lastMouseDown.raw}),this.mousemovePackets.push(t),this.mouseMovedStorage=t}handlePinchZoom(e){let t=e.targetTouches[0],i=e.targetTouches[1],s=this.touches[t.identifier],n=this.touches[i.identifier];
+if(s!=null&&n!=null){const a=this.distance(t,i);
+if(this.prevPinchDistance){this.pinchZoomStorage==null&&(this.pinchZoomStorage={pinchDelta:0,pinchDistance:a});
+const o=a-this.prevPinchDistance;
+this.pinchZoomStorage.pinchDelta+=o,this.pinchZoomStorage.direction=Math.sign(o),this.isPinching=!0}this.prevPinchDistance=a}}distance(e,t){let i=Math.abs(e.clientX-t.clientX),s=Math.abs(e.clientY-t.clientY);
+return Math.hypot(i,s)}canHandleKeyEvent(e){return e.target===K0||e.target===K0.parentElement||e.target===document.body||e.target!==document.activeElement}keydown(e){q9(!0),this.canHandleKeyEvent(e)&&Z.emit(Y.KEY_DOWN,e)}keyup(e){this.canHandleKeyEvent(e)&&Z.emit(Y.KEY_UP,e)}getMouseData(e){if(e.isVR)return{isVR:!0,isDragging:this.isDragging,controller:e.controller,index:e.index};
+let t=0,i=0,s=!1;
+if(e.changedTouches&&e.changedTouches[0]){e.changedTouches.length>1&&(s=!0),e=e.changedTouches[0];
+let a=this.touches[e.identifier];
+a!=null&&(t=a.dx,i=a.dy)}else t=e.movementX??0,i=e.movementY??0;
+const n=this.canvasBoundingRect;
+return{rawEvent:e,multitouch:s,isDragging:this.isDragging,time:Date.now(),normalized:{x:(e.clientX-n.left)/n.width*2-1,y:(e.clientY-n.top)/n.height*2-1},
+raw:{x:e.clientX,y:e.clientY,dx:t,dy:i,screenX:e.screenX,screenY:e.screenY,ctrlKey:e.ctrlKey,shiftKey:e.shiftKey,metaKey:e.metaKey,button:e.button??0}}}dblClick(e){this.mouseDblClickStorage=this.getMouseData(e)}mouseWheel(e){this.wheelStorage=e}resize(e){if((e==null||!e.w&&!e.h)&&(e={w:this.lastW,h:this.lastH,...e}),this.w=e.w,this.h=e.h,this.fullFrameX=e.w,this.fullFrameY=e.h,e.force==null||e.force==!1){this.lastW=e.w,this.lastH=e.h;
+let{width:t,height:i}=cc0(this.fullFrameX*xs,this.fullFrameY*xs);
+this.w=Math.round(t/xs),this.h=Math.round(i/xs)}setTimeout(()=>{this.updateCanvasBounds()}),Vi0(this.w,this.h),qi0(this.fullFrameX,this.fullFrameY),Wi0(window.matchMedia("(orientation: landscape)").matches?m_:p_),Z.emit(Y.RESIZE,this.w,this.h),K0!=null&&(K0.style.width=`${this.fullFrameX}px`,K0.style.height=`${this.fullFrameY}px`),Hi0(parseFloat((this.w/this.fullFrameX*xs).toFixed(3))),this._isPlaying==!1&&this.update(!0)}upda

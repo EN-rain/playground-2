@@ -1,0 +1,51 @@
+[
+  {
+    "name": "00-spawn",
+    "playerX": -7.5,
+    "playerZ": 3.2,
+    "cameraHeading": 3.1416,
+    "cameraDistance": 15.02
+  },
+  {
+    "name": "01-building-1",
+    "playerX": -7.5,
+    "playerZ": -8.55,
+    "cameraHeading": 1.5816,
+    "cameraDistance": 15
+  },
+  {
+    "name": "02-building-0",
+    "playerX": -7.5,
+    "playerZ": -23.17,
+    "cameraHeading": 1.5816,
+    "cameraDistance": 15
+  },
+  {
+    "name": "03-building-2",
+    "playerX": -7.5,
+    "playerZ": -43.55,
+    "cameraHeading": 1.5816,
+    "cameraDistance": 15
+  },
+  {
+    "name": "04-ramp-district",
+    "playerX": -7.5,
+    "playerZ": -62.18,
+    "cameraHeading": 1.5816,
+    "cameraDistance": 15
+  },
+  {
+    "name": "05-west-edge",
+    "playerX": -30.63,
+    "playerZ": -62.18,
+    "cameraHeading": 3.1416,
+    "cameraDistance": 15
+  },
+  {
+    "name": "06-east-front",
+    "playerX": 14.57,
+    "playerZ": 3.2,
+    "cameraHeading": 3.1416,
+    "cameraDistance": 15
+  }
+]

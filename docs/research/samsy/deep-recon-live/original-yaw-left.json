@@ -1,0 +1,136 @@
+{
+  "capturedAt": "2026-07-31T06:28:21.916Z",
+  "camera": {
+    "type": "e80",
+    "position": {
+      "x": 38.180492498399595,
+      "y": -2.0337678526548384,
+      "z": -180.67053059081744
+    },
+    "rotation": {
+      "x": -2.5417569316219453,
+      "y": -1.511746206726948,
+      "z": 0.5990231250117126,
+      "order": "XYZ"
+    },
+    "fov": 60,
+    "near": 0.1,
+    "far": 800,
+    "maxDistance": 8,
+    "currentFovSmooth": 60,
+    "originalCurrentSmoothFov": 60,
+    "controls": {
+      "type": "zN",
+      "target": {
+        "x": 46.15826390715559,
+        "y": 0.49999000000000793,
+        "z": -180.28122830433423
+      },
+      "minDistance": 0,
+      "maxDistance": 8,
+      "minPolarAngle": 0.75,
+      "maxPolarAngle": 2.5,
+      "enableZoom": true,
+      "enableRotate": true,
+      "enablePan": false,
+      "enableDamping": true,
+      "dampingFactor": 0.1,
+      "rotateSpeed": 1,
+      "zoomSpeed": 1,
+      "azimuth": -1.873604672221012,
+      "polar": 1.8779797730063832
+    }
+  },
+  "player": {
+    "capsulePosition": {
+      "x": 46.1582639071556,
+      "y": 0.50001,
+      "z": -180.2812283043345
+    },
+    "capsuleRotation": {
+      "x": 0,
+      "y": 6.217248937900877e-15,
+      "z": 0,
+      "order": "XYZ"
+    },
+    "avatarPosition": {
+      "x": 46.1582639071556,
+      "y": 0.00000999999999995449,
+      "z": -180.2812283043345
+    },
+    "avatarScale": {
+      "x": 1.65,
+      "y": 1.65,
+      "z": 1.65
+    },
+    "avatarRotationY": 3.1415926535897993,
+    "isGrounded": true,
+    "isSprinting": true,
+    "speedMultiplier": 1,
+    "actualVelocity": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "scene": {
+    "rootType": "PerspectiveCamera",
+    "rootName": null,
+    "background": null,
+    "fog": null,
+    "objectCount": 1,
+    "screenCount": 0,
+    "lightCount": 0,
+    "floorCandidateCount": 0,
+    "avatarCandidateCount": 0
+  },
+  "renderers": [],
+  "screens": [],
+  "lights": [],
+  "floors": [],
+  "avatars": [],
+  "resources": [
+    "https://use.typekit.net/twe8lcf.css",
+    "https://samsy.ninja/assets/js/main-ITpbzWAg.js",
+    "https://samsy.ninja/assets/css/main-rb3R8F1q.css",
+    "https://www.googletagmanager.com/gtag/js?id=G-T6R7J0D4NK",
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67t1v9227808833za200zd9227808833&_p=1785479216899&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1638943347.1785479217&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119896802~120222308&sid=1785479216&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2450",
+    "https://samsy.ninja/preloader/preloader.png",
+    "https://smsygen02.b-cdn.net/slugabedsky.opus",
+    "https://smsygen02.b-cdn.net/notification.opus",
+    "https://smsygen02.b-cdn.net/hi.opus",
+    "https://smsygen02.b-cdn.net/jump.opus",
+    "https://smsygen02.b-cdn.net/hover.opus",
+    "https://smsygen02.b-cdn.net/text.opus",
+    "https://samsy.ninja/vrm/owo7.vrm?gpu=true&QM%20eA",
+    "https://samsy.ninja/interaction/ui2.png",
+    "https://samsy.ninja/interaction/ui2.json",
+    "https://samsy.ninja/textures/atlasemoji.png",
+    "https://samsy.ninja/textures/noisebake.png",
+    "https://samsy.ninja/textures/faces8.png",
+    "https://smsygen02.b-cdn.net/derivative.webm",
+    "https://samsy.ninja/models/cyberfix.glb",
+    "https://samsy.ninja/bmfont/formadjrregular.json",
+    "https://samsy.ninja/videos/loading.mp4",
+    "https://samsy.ninja/bmfont/formadjrregular.png",
+    "https://samsy.ninja/bmfont/formadjrbold.json",
+    "https://samsy.ninja/bmfont/formadjrbold.png",
+    "https://smsygen02.b-cdn.net/akira.webm",
+    "https://smsygen02.b-cdn.net/lightizon.webm",
+    "https://smsygen02.b-cdn.net/akira.webm",
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67t1v9227808833za200zd9227808833&_p=1785479216899&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1638943347.1785479217&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115616986~115938466~115938469~118897920~118897930~119896802~120222308&sid=1785479216&sct=1&seg=0&dl=https%3A%2F%2Fsamsy.ninja%2F&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=scroll&epn.percent_scrolled=90&_et=24&tfd=7499",
+    "https://samsy.ninja/assets/baker.worker-5z1EDtsg.js",
+    "https://samsy.ninja/favicons/favicon.ico",
+    "https://samsy.ninja/favicons/favicon-32x32.png",
+    "https://samsy.ninja/vrm/owo3.vrm?gpu=true&Af",
+    "https://samsy.ninja/textures/bump-floor_fxrdig.jpg",
+    "https://samsy.ninja/front/quest4.svg",
+    "https://samsy.ninja/favicons/favicon.ico",
+    "https://samsy.ninja/favicons/favicon-32x32.png",
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67t1v9227808833za200zd9227808833&_p=1785479216899&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1638943347.1785479217&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=3&tag_exp=115616986~115938466~115938469~118897920~118897930~119896802~120222308&dl=https%3A%2F%2Fsamsy.ninja%2Ftutorial&dr=https%3A%2F%2Fsamsy.ninja%2F&sid=1785479216&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=50590&tfd=58111",
+    "https://samsy.ninja/front/triangle.svg",
+    "https://samsy.ninja/favicons/favicon.ico",
+    "https://samsy.ninja/favicons/favicon-32x32.png",
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-T6R7J0D4NK&gtm=45je67t1v9227808833za200zd9227808833&_p=1785479216899&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1638943347.1785479217&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.187%7CGoogle%2520Chrome%3B150.0.7871.187&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=4&tag_exp=115616986~115938466~115938469~118897920~118897930~119896802~120222308&dl=https%3A%2F%2Fsamsy.ninja%2F&dr=https%3A%2F%2Fsamsy.ninja%2Ftutorial&sid=1785479216&sct=1&seg=1&dt=SMSY-Gen02%20%7C%20Award%20Winning%20Creative%20Graphics%20Engineer&en=page_view&_et=23206&tfd=81318"
+  ]
+}

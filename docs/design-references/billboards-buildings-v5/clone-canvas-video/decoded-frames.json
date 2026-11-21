@@ -1,0 +1,590 @@
+{
+  "count": 117,
+  "frames": [
+    {
+      "index": 0,
+      "time": 0.0,
+      "file": "0000-00000ms.png"
+    },
+    {
+      "index": 1,
+      "time": 0.156,
+      "file": "0001-00156ms.png"
+    },
+    {
+      "index": 2,
+      "time": 0.183,
+      "file": "0002-00183ms.png"
+    },
+    {
+      "index": 3,
+      "time": 0.251,
+      "file": "0003-00251ms.png"
+    },
+    {
+      "index": 4,
+      "time": 0.284,
+      "file": "0004-00284ms.png"
+    },
+    {
+      "index": 5,
+      "time": 0.314,
+      "file": "0005-00314ms.png"
+    },
+    {
+      "index": 6,
+      "time": 0.349,
+      "file": "0006-00349ms.png"
+    },
+    {
+      "index": 7,
+      "time": 0.399,
+      "file": "0007-00399ms.png"
+    },
+    {
+      "index": 8,
+      "time": 0.429,
+      "file": "0008-00429ms.png"
+    },
+    {
+      "index": 9,
+      "time": 0.474,
+      "file": "0009-00474ms.png"
+    },
+    {
+      "index": 10,
+      "time": 0.514,
+      "file": "0010-00514ms.png"
+    },
+    {
+      "index": 11,
+      "time": 0.842,
+      "file": "0011-00842ms.png"
+    },
+    {
+      "index": 12,
+      "time": 0.879,
+      "file": "0012-00879ms.png"
+    },
+    {
+      "index": 13,
+      "time": 0.915,
+      "file": "0013-00915ms.png"
+    },
+    {
+      "index": 14,
+      "time": 0.963,
+      "file": "0014-00963ms.png"
+    },
+    {
+      "index": 15,
+      "time": 0.996,
+      "file": "0015-00996ms.png"
+    },
+    {
+      "index": 16,
+      "time": 1.042,
+      "file": "0016-01042ms.png"
+    },
+    {
+      "index": 17,
+      "time": 1.074,
+      "file": "0017-01074ms.png"
+    },
+    {
+      "index": 18,
+      "time": 1.111,
+      "file": "0018-01111ms.png"
+    },
+    {
+      "index": 19,
+      "time": 1.148,
+      "file": "0019-01148ms.png"
+    },
+    {
+      "index": 20,
+      "time": 1.194,
+      "file": "0020-01194ms.png"
+    },
+    {
+      "index": 21,
+      "time": 1.236,
+      "file": "0021-01236ms.png"
+    },
+    {
+      "index": 22,
+      "time": 1.279,
+      "file": "0022-01279ms.png"
+    },
+    {
+      "index": 23,
+      "time": 1.316,
+      "file": "0023-01316ms.png"
+    },
+    {
+      "index": 24,
+      "time": 1.37,
+      "file": "0024-01370ms.png"
+    },
+    {
+      "index": 25,
+      "time": 1.412,
+      "file": "0025-01412ms.png"
+    },
+    {
+      "index": 26,
+      "time": 1.448,
+      "file": "0026-01448ms.png"
+    },
+    {
+      "index": 27,
+      "time": 1.483,
+      "file": "0027-01483ms.png"
+    },
+    {
+      "index": 28,
+      "time": 1.514,
+      "file": "0028-01514ms.png"
+    },
+    {
+      "index": 29,
+      "time": 1.557,
+      "file": "0029-01557ms.png"
+    },
+    {
+      "index": 30,
+      "time": 1.595,
+      "file": "0030-01595ms.png"
+    },
+    {
+      "index": 31,
+      "time": 1.675,
+      "file": "0031-01675ms.png"
+    },
+    {
+      "index": 32,
+      "time": 1.715,
+      "file": "0032-01715ms.png"
+    },
+    {
+      "index": 33,
+      "time": 1.738,
+      "file": "0033-01738ms.png"
+    },
+    {
+      "index": 34,
+      "time": 1.78,
+      "file": "0034-01780ms.png"
+    },
+    {
+      "index": 35,
+      "time": 1.822,
+      "file": "0035-01822ms.png"
+    },
+    {
+      "index": 36,
+      "time": 1.859,
+      "file": "0036-01859ms.png"
+    },
+    {
+      "index": 37,
+      "time": 1.893,
+      "file": "0037-01893ms.png"
+    },
+    {
+      "index": 38,
+      "time": 1.936,
+      "file": "0038-01936ms.png"
+    },
+    {
+      "index": 39,
+      "time": 1.982,
+      "file": "0039-01982ms.png"
+    },
+    {
+      "index": 40,
+      "time": 2.024,
+      "file": "0040-02024ms.png"
+    },
+    {
+      "index": 41,
+      "time": 2.058,
+      "file": "0041-02058ms.png"
+    },
+    {
+      "index": 42,
+      "time": 2.107,
+      "file": "0042-02107ms.png"
+    },
+    {
+      "index": 43,
+      "time": 2.138,
+      "file": "0043-02138ms.png"
+    },
+    {
+      "index": 44,
+      "time": 2.186,
+      "file": "0044-02186ms.png"
+    },
+    {
+      "index": 45,
+      "time": 2.225,
+      "file": "0045-02225ms.png"
+    },
+    {
+      "index": 46,
+      "time": 2.255,
+      "file": "0046-02255ms.png"
+    },
+    {
+      "index": 47,
+      "time": 2.292,
+      "file": "0047-02292ms.png"
+    },
+    {
+      "index": 48,
+      "time": 2.327,
+      "file": "0048-02327ms.png"
+    },
+    {
+      "index": 49,
+      "time": 2.361,
+      "file": "0049-02361ms.png"
+    },
+    {
+      "index": 50,
+      "time": 2.399,
+      "file": "0050-02399ms.png"
+    },
+    {
+      "index": 51,
+      "time": 2.432,
+      "file": "0051-02432ms.png"
+    },
+    {
+      "index": 52,
+      "time": 2.469,
+      "file": "0052-02469ms.png"
+    },
+    {
+      "index": 53,
+      "time": 2.503,
+      "file": "0053-02503ms.png"
+    },
+    {
+      "index": 54,
+      "time": 2.539,
+      "file": "0054-02539ms.png"
+    },
+    {
+      "index": 55,
+      "time": 2.577,
+      "file": "0055-02577ms.png"
+    },
+    {
+      "index": 56,
+      "time": 2.618,
+      "file": "0056-02618ms.png"
+    },
+    {
+      "index": 57,
+      "time": 2.655,
+      "file": "0057-02655ms.png"
+    },
+    {
+      "index": 58,
+      "time": 2.691,
+      "file": "0058-02691ms.png"
+    },
+    {
+      "index": 59,
+      "time": 2.728,
+      "file": "0059-02728ms.png"
+    },
+    {
+      "index": 60,
+      "time": 2.765,
+      "file": "0060-02765ms.png"
+    },
+    {
+      "index": 61,
+      "time": 2.801,
+      "file": "0061-02801ms.png"
+    },
+    {
+      "index": 62,
+      "time": 2.833,
+      "file": "0062-02833ms.png"
+    },
+    {
+      "index": 63,
+      "time": 2.867,
+      "file": "0063-02867ms.png"
+    },
+    {
+      "index": 64,
+      "time": 2.904,
+      "file": "0064-02904ms.png"
+    },
+    {
+      "index": 65,
+      "time": 2.943,
+      "file": "0065-02943ms.png"
+    },
+    {
+      "index": 66,
+      "time": 2.982,
+      "file": "0066-02982ms.png"
+    },
+    {
+      "index": 67,
+      "time": 3.012,
+      "file": "0067-03012ms.png"
+    },
+    {
+      "index": 68,
+      "time": 3.053,
+      "file": "0068-03053ms.png"
+    },
+    {
+      "index": 69,
+      "time": 3.091,
+      "file": "0069-03091ms.png"
+    },
+    {
+      "index": 70,
+      "time": 3.137,
+      "file": "0070-03137ms.png"
+    },
+    {
+      "index": 71,
+      "time": 3.173,
+      "file": "0071-03173ms.png"
+    },
+    {
+      "index": 72,
+      "time": 3.215,
+      "file": "0072-03215ms.png"
+    },
+    {
+      "index": 73,
+      "time": 3.252,
+      "file": "0073-03252ms.png"
+    },
+    {
+      "index": 74,
+      "time": 3.285,
+      "file": "0074-03285ms.png"
+    },
+    {
+      "index": 75,
+      "time": 3.321,
+      "file": "0075-03321ms.png"
+    },
+    {
+      "index": 76,
+      "time": 3.358,
+      "file": "0076-03358ms.png"
+    },
+    {
+      "index": 77,
+      "time": 3.391,
+      "file": "0077-03391ms.png"
+    },
+    {
+      "index": 78,
+      "time": 3.434,
+      "file": "0078-03434ms.png"
+    },
+    {
+      "index": 79,
+      "time": 3.467,
+      "file": "0079-03467ms.png"
+    },
+    {
+      "index": 80,
+      "time": 3.502,
+      "file": "0080-03502ms.png"
+    },
+    {
+      "index": 81,
+      "time": 3.536,
+      "file": "0081-03536ms.png"
+    },
+    {
+      "index": 82,
+      "time": 3.573,
+      "file": "0082-03573ms.png"
+    },
+    {
+      "index": 83,
+      "time": 3.605,
+      "file": "0083-03605ms.png"
+    },
+    {
+      "index": 84,
+      "time": 3.64,
+      "file": "0084-03640ms.png"
+    },
+    {
+      "index": 85,
+      "time": 3.675,
+      "file": "0085-03675ms.png"
+    },
+    {
+      "index": 86,
+      "time": 3.716,
+      "file": "0086-03716ms.png"
+    },
+    {
+      "index": 87,
+      "time": 3.749,
+      "file": "0087-03749ms.png"
+    },
+    {
+      "index": 88,
+      "time": 3.781,
+      "file": "0088-03781ms.png"
+    },
+    {
+      "index": 89,
+      "time": 3.815,
+      "file": "0089-03815ms.png"
+    },
+    {
+      "index": 90,
+      "time": 3.85,
+      "file": "0090-03850ms.png"
+    },
+    {
+      "index": 91,
+      "time": 3.886,
+      "file": "0091-03886ms.png"
+    },
+    {
+      "index": 92,
+      "time": 3.92,
+      "file": "0092-03920ms.png"
+    },
+    {
+      "index": 93,
+      "time": 3.954,
+      "file": "0093-03954ms.png"
+    },
+    {
+      "index": 94,
+      "time": 3.986,
+      "file": "0094-03986ms.png"
+    },
+    {
+      "index": 95,
+      "time": 4.019,
+      "file": "0095-04019ms.png"
+    },
+    {
+      "index": 96,
+      "time": 4.061,
+      "file": "0096-04061ms.png"
+    },
+    {
+      "index": 97,
+      "time": 4.09,
+      "file": "0097-04090ms.png"
+    },
+    {
+      "index": 98,
+      "time": 4.131,
+      "file": "0098-04131ms.png"
+    },
+    {
+      "index": 99,
+      "time": 4.166,
+      "file": "0099-04166ms.png"
+    },
+    {
+      "index": 100,
+      "time": 4.205,
+      "file": "0100-04205ms.png"
+    },
+    {
+      "index": 101,
+      "time": 4.235,
+      "file": "0101-04235ms.png"
+    },
+    {
+      "index": 102,
+      "time": 4.272,
+      "file": "0102-04272ms.png"
+    },
+    {
+      "index": 103,
+      "time": 4.306,
+      "file": "0103-04306ms.png"
+    },
+    {
+      "index": 104,
+      "time": 4.348,
+      "file": "0104-04348ms.png"
+    },
+    {
+      "index": 105,
+      "time": 4.384,
+      "file": "0105-04384ms.png"
+    },
+    {
+      "index": 106,
+      "time": 4.413,
+      "file": "0106-04413ms.png"
+    },
+    {
+      "index": 107,
+      "time": 4.453,
+      "file": "0107-04453ms.png"
+    },
+    {
+      "index": 108,
+      "time": 4.49,
+      "file": "0108-04490ms.png"
+    },
+    {
+      "index": 109,
+      "time": 4.52,
+      "file": "0109-04520ms.png"
+    },
+    {
+      "index": 110,
+      "time": 4.557,
+      "file": "0110-04557ms.png"
+    },
+    {
+      "index": 111,
+      "time": 4.594,
+      "file": "0111-04594ms.png"
+    },
+    {
+      "index": 112,
+      "time": 4.632,
+      "file": "0112-04632ms.png"
+    },
+    {
+      "index": 113,
+      "time": 4.666,
+      "file": "0113-04666ms.png"
+    },
+    {
+      "index": 114,
+      "time": 4.704,
+      "file": "0114-04704ms.png"
+    },
+    {
+      "index": 115,
+      "time": 4.735,
+      "file": "0115-04735ms.png"
+    },
+    {
+      "index": 116,
+      "time": 4.774,
+      "file": "0116-04774ms.png"
+    }
+  ]
+}

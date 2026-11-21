@@ -1,0 +1,575 @@
+{
+  "target": "clone",
+  "url": "http://localhost:3003/",
+  "capturedAt": "2026-07-31T05:40:32.470Z",
+  "frameCaptureMethod": "Chrome DevTools Protocol Page.startScreencast",
+  "everyNthFrame": 1,
+  "totalFrames": 1199,
+  "durationSeconds": 54.706,
+  "averageFrameIntervalMs": 45.664,
+  "medianFrameIntervalMs": 38.577,
+  "phaseCounts": {
+    "idle": 35,
+    "forward": 169,
+    "forward-right": 133,
+    "right": 86,
+    "backward-right": 95,
+    "backward": 94,
+    "backward-left": 111,
+    "left": 71,
+    "forward-left": 120,
+    "jump-forward": 47,
+    "camera-sweep-forward": 195,
+    "settle": 43
+  },
+  "consoleErrors": [],
+  "failedRequests": [],
+  "inputLog": [
+    {
+      "phase": "forward",
+      "type": "hold",
+      "codes": [
+        "KeyW"
+      ],
+      "durationMs": 6000,
+      "startedAt": 7594.9793,
+      "startTelemetry": {
+        "player": {
+          "x": 46.16,
+          "y": 0,
+          "z": -180.28
+        },
+        "camera": {
+          "x": 46.16,
+          "y": 0.84,
+          "z": -188.22,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 1,
+        "effectiveMovementSpeed": 10,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 13692.7128,
+      "endTelemetry": {
+        "player": {
+          "x": 46.16,
+          "y": 0,
+          "z": -14.67
+        },
+        "camera": {
+          "x": 46.16,
+          "y": 0.84,
+          "z": -22.61,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 3,
+        "effectiveMovementSpeed": 30,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "forward-right",
+      "type": "hold",
+      "codes": [
+        "KeyW",
+        "KeyD"
+      ],
+      "durationMs": 4500,
+      "startedAt": 13720.1447,
+      "startTelemetry": {
+        "player": {
+          "x": 46.16,
+          "y": 0,
+          "z": -14.67
+        },
+        "camera": {
+          "x": 46.16,
+          "y": 0.84,
+          "z": -22.61,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.9,
+        "effectiveMovementSpeed": 29,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 18331.3306,
+      "endTelemetry": {
+        "player": {
+          "x": -49.61,
+          "y": 0,
+          "z": 83.02
+        },
+        "camera": {
+          "x": -49.61,
+          "y": 0.84,
+          "z": 75.08,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 3,
+        "effectiveMovementSpeed": 30,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "right",
+      "type": "hold",
+      "codes": [
+        "KeyD"
+      ],
+      "durationMs": 3500,
+      "startedAt": 18336.9235,
+      "startTelemetry": {
+        "player": {
+          "x": -49.61,
+          "y": 0,
+          "z": 83.02
+        },
+        "camera": {
+          "x": -49.61,
+          "y": 0.84,
+          "z": 75.08,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 3,
+        "effectiveMovementSpeed": 30,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 21955.9503,
+      "endTelemetry": {
+        "player": {
+          "x": -156.26,
+          "y": 0,
+          "z": 83.02
+        },
+        "camera": {
+          "x": -156.26,
+          "y": 0.84,
+          "z": 75.08,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.27,
+        "effectiveMovementSpeed": 22.72,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "backward-right",
+      "type": "hold",
+      "codes": [
+        "KeyS",
+        "KeyD"
+      ],
+      "durationMs": 4500,
+      "startedAt": 22530.2311,
+      "startTelemetry": {
+        "player": {
+          "x": -156.26,
+          "y": 0,
+          "z": 83.02
+        },
+        "camera": {
+          "x": -156.26,
+          "y": 0.84,
+          "z": 75.08,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 1.07,
+        "effectiveMovementSpeed": 10.75,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 27143.9393,
+      "endTelemetry": {
+        "player": {
+          "x": -236.27,
+          "y": 0,
+          "z": -1.73
+        },
+        "camera": {
+          "x": -236.27,
+          "y": -1.27,
+          "z": -9.67,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 3,
+        "effectiveMovementSpeed": 30,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "backward",
+      "type": "hold",
+      "codes": [
+        "KeyS"
+      ],
+      "durationMs": 6000,
+      "startedAt": 27149.4629,
+      "startTelemetry": {
+        "player": {
+          "x": -236.27,
+          "y": 0,
+          "z": -1.73
+        },
+        "camera": {
+          "x": -236.27,
+          "y": -1.27,
+          "z": -9.67,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.9,
+        "effectiveMovementSpeed": 29,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 33376.6747,
+      "endTelemetry": {
+        "player": {
+          "x": -236.27,
+          "y": 0,
+          "z": -179.87
+        },
+        "camera": {
+          "x": -236.27,
+          "y": 0.84,
+          "z": -187.82,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.85,
+        "effectiveMovementSpeed": 28.5,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "backward-left",
+      "type": "hold",
+      "codes": [
+        "KeyS",
+        "KeyA"
+      ],
+      "durationMs": 4500,
+      "startedAt": 33421.1133,
+      "startTelemetry": {
+        "player": {
+          "x": -236.27,
+          "y": 0,
+          "z": -179.87
+        },
+        "camera": {
+          "x": -236.27,
+          "y": 0.84,
+          "z": -187.82,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.65,
+        "effectiveMovementSpeed": 26.52,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 38431.9056,
+      "endTelemetry": {
+        "player": {
+          "x": -140.46,
+          "y": 0,
+          "z": -281.32
+        },
+        "camera": {
+          "x": -140.46,
+          "y": 0.84,
+          "z": -289.26,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.9,
+        "effectiveMovementSpeed": 29.01,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "left",
+      "type": "hold",
+      "codes": [
+        "KeyA"
+      ],
+      "durationMs": 3500,
+      "startedAt": 38535.6811,
+      "startTelemetry": {
+        "player": {
+          "x": -140.46,
+          "y": 0,
+          "z": -281.32
+        },
+        "camera": {
+          "x": -140.46,
+          "y": 0.84,
+          "z": -289.26,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.4,
+        "effectiveMovementSpeed": 24,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 42259.2528,
+      "endTelemetry": {
+        "player": {
+          "x": -42.62,
+          "y": 0,
+          "z": -281.32
+        },
+        "camera": {
+          "x": -42.62,
+          "y": 0.84,
+          "z": -289.26,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.95,
+        "effectiveMovementSpeed": 29.53,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "forward-left",
+      "type": "hold",
+      "codes": [
+        "KeyW",
+        "KeyA"
+      ],
+      "durationMs": 4500,
+      "startedAt": 42280.1251,
+      "startTelemetry": {
+        "player": {
+          "x": -42.62,
+          "y": 0,
+          "z": -281.32
+        },
+        "camera": {
+          "x": -42.62,
+          "y": 0.84,
+          "z": -289.26,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.8,
+        "effectiveMovementSpeed": 28.03,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 47108.9085,
+      "endTelemetry": {
+        "player": {
+          "x": 54.38,
+          "y": 0,
+          "z": -180.25
+        },
+        "camera": {
+          "x": 54.38,
+          "y": 0.84,
+          "z": -188.2,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.9,
+        "effectiveMovementSpeed": 28.99,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "jump-forward",
+      "type": "jump-move",
+      "codes": [
+        "KeyW",
+        "Space"
+      ],
+      "durationMs": 3000,
+      "startedAt": 47171.2162,
+      "startTelemetry": {
+        "player": {
+          "x": 54.38,
+          "y": 0,
+          "z": -180.25
+        },
+        "camera": {
+          "x": 54.38,
+          "y": 0.84,
+          "z": -188.2,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.75,
+        "effectiveMovementSpeed": 27.5,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 50711.4536,
+      "endTelemetry": {
+        "player": {
+          "x": 54.38,
+          "y": 0,
+          "z": -88.92
+        },
+        "camera": {
+          "x": 54.38,
+          "y": 0.84,
+          "z": -96.86,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.07,
+        "effectiveMovementSpeed": 20.71,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    },
+    {
+      "phase": "camera-sweep-forward",
+      "type": "pointer-lock-sweep",
+      "button": null,
+      "codes": [
+        "KeyW"
+      ],
+      "durationMs": 5000,
+      "startedAt": 51179.7836,
+      "startTelemetry": {
+        "player": {
+          "x": 54.38,
+          "y": 0,
+          "z": -88.92
+        },
+        "camera": {
+          "x": 54.38,
+          "y": 0.84,
+          "z": -96.86,
+          "heading": 0,
+          "elevation": -0.12,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 1.19,
+        "effectiveMovementSpeed": 11.91,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      },
+      "endedAt": 59628.2502,
+      "endTelemetry": {
+        "player": {
+          "x": 82.49,
+          "y": 0,
+          "z": 7.44
+        },
+        "camera": {
+          "x": 89.07,
+          "y": 6.3,
+          "z": 8.1,
+          "heading": -1.67,
+          "elevation": 0.5978,
+          "requestedDistance": 8,
+          "actualDistance": 8
+        },
+        "grounded": true,
+        "groundHeight": 0,
+        "speedMultiplier": 2.4,
+        "effectiveMovementSpeed": 24.03,
+        "cameraSolver": "damped-orbit-source-restore-3",
+        "physicsProfile": "source-constants-3-substeps"
+      }
+    }
+  ]
+}

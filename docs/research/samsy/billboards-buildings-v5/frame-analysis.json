@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "original": {
+      "full_scene": {
+        "consecutive_mean_abs_median": 0.665,
+        "consecutive_mean_abs_p90": 2.135,
+        "changed_gt8_median_pct": 2.294,
+        "changed_gt24_median_pct": 0.404,
+        "temporal_std_mean": 16.348,
+        "luma_mean": 20.601,
+        "midtone_pct": 60.892,
+        "near_black_pct": 38.231
+      },
+      "left_screens": {
+        "consecutive_mean_abs_median": 0.554,
+        "consecutive_mean_abs_p90": 1.707,
+        "changed_gt8_median_pct": 1.964,
+        "changed_gt24_median_pct": 0.124,
+        "temporal_std_mean": 15.465,
+        "luma_mean": 19.518,
+        "midtone_pct": 61.114,
+        "near_black_pct": 38.326
+      },
+      "center_screens": {
+        "consecutive_mean_abs_median": 1.035,
+        "consecutive_mean_abs_p90": 3.584,
+        "changed_gt8_median_pct": 4.42,
+        "changed_gt24_median_pct": 0.96,
+        "temporal_std_mean": 16.823,
+        "luma_mean": 21.214,
+        "midtone_pct": 60.528,
+        "near_black_pct": 37.891
+      },
+      "right_screens": {
+        "consecutive_mean_abs_median": 0.689,
+        "consecutive_mean_abs_p90": 1.483,
+        "changed_gt8_median_pct": 2.176,
+        "changed_gt24_median_pct": 0.633,
+        "temporal_std_mean": 17.159,
+        "luma_mean": 21.637,
+        "midtone_pct": 60.567,
+        "near_black_pct": 38.327
+      },
+      "city_upper": {
+        "consecutive_mean_abs_median": 0.648,
+        "consecutive_mean_abs_p90": 1.923,
+        "changed_gt8_median_pct": 2.703,
+        "changed_gt24_median_pct": 0.551,
+        "temporal_std_mean": 16.518,
+        "luma_mean": 20.876,
+        "midtone_pct": 60.749,
+        "near_black_pct": 38.17
+      },
+      "floor": {
+        "consecutive_mean_abs_median": 0.963,
+        "consecutive_mean_abs_p90": 2.528,
+        "changed_gt8_median_pct": 3.151,
+        "changed_gt24_median_pct": 0.36,
+        "temporal_std_mean": 16.526,
+        "luma_mean": 20.764,
+        "midtone_pct": 60.976,
+        "near_black_pct": 38.325
+      }
+    },
+    "clone": {
+      "full_scene": {
+        "consecutive_mean_abs_median": 4.405,
+        "consecutive_mean_abs_p90": 6.461,
+        "changed_gt8_median_pct": 21.365,
+        "changed_gt24_median_pct": 6.208,
+        "temporal_std_mean": 6.184,
+        "luma_mean": 67.369,
+        "midtone_pct": 81.138,
+        "near_black_pct": 0.0
+      },
+      "left_screens": {
+        "consecutive_mean_abs_median": 2.86,
+        "consecutive_mean_abs_p90": 3.238,
+        "changed_gt8_median_pct": 19.27,
+        "changed_gt24_median_pct": 3.191,
+        "temporal_std_mean": 3.628,
+        "luma_mean": 84.105,
+        "midtone_pct": 69.127,
+        "near_black_pct": 0.0
+      },
+      "center_screens": {
+        "consecutive_mean_abs_median": 8.115,
+        "consecutive_mean_abs_p90": 14.263,
+        "changed_gt8_median_pct": 38.895,
+        "changed_gt24_median_pct": 13.248,
+        "temporal_std_mean": 13.316,
+        "luma_mean": 91.806,
+        "midtone_pct": 63.741,
+        "near_black_pct": 0.0
+      },
+      "right_screens": {
+        "consecutive_mean_abs_median": 3.859,
+        "consecutive_mean_abs_p90": 4.729,
+        "changed_gt8_median_pct": 20.127,
+        "changed_gt24_median_pct": 5.407,
+        "temporal_std_mean": 4.553,
+        "luma_mean": 77.209,
+        "midtone_pct": 73.886,
+        "near_black_pct": 0.0
+      },
+      "city_upper": {
+        "consecutive_mean_abs_median": 4.789,
+        "consecutive_mean_abs_p90": 7.174,
+        "changed_gt8_median_pct": 24.289,
+        "changed_gt24_median_pct": 6.852,
+        "temporal_std_mean": 6.862,
+        "luma_mean": 79.631,
+        "midtone_pct": 72.123,
+        "near_black_pct": 0.0
+      },
+      "floor": {
+        "consecutive_mean_abs_median": 4.37,
+        "consecutive_mean_abs_p90": 6.352,
+        "changed_gt8_median_pct": 19.647,
+        "changed_gt24_median_pct": 6.343,
+        "temporal_std_mean": 6.218,
+        "luma_mean": 55.629,
+        "midtone_pct": 91.497,
+        "near_black_pct": 0.0
+      }
+    }
+  },
+  "clone_to_original_ratio": {
+    "full_scene": {
+      "consecutive_mean_abs_median": 6.624,
+      "changed_gt8_median_pct": 9.313,
+      "changed_gt24_median_pct": 15.366,
+      "temporal_std_mean": 0.378,
+      "luma_mean": 3.27,
+      "midtone_pct": 1.332,
+      "near_black_pct": 0.0
+    },
+    "left_screens": {
+      "consecutive_mean_abs_median": 5.162,
+      "changed_gt8_median_pct": 9.812,
+      "changed_gt24_median_pct": 25.734,
+      "temporal_std_mean": 0.235,
+      "luma_mean": 4.309,
+      "midtone_pct": 1.131,
+      "near_black_pct": 0.0
+    },
+    "center_screens": {
+      "consecutive_mean_abs_median": 7.841,
+      "changed_gt8_median_pct": 8.8,
+      "changed_gt24_median_pct": 13.8,
+      "temporal_std_mean": 0.792,
+      "luma_mean": 4.328,
+      "midtone_pct": 1.053,
+      "near_black_pct": 0.0
+    },
+    "right_screens": {
+      "consecutive_mean_abs_median": 5.601,
+      "changed_gt8_median_pct": 9.25,
+      "changed_gt24_median_pct": 8.542,
+      "temporal_std_mean": 0.265,
+      "luma_mean": 3.568,
+      "midtone_pct": 1.22,
+      "near_black_pct": 0.0
+    },
+    "city_upper": {
+      "consecutive_mean_abs_median": 7.39,
+      "changed_gt8_median_pct": 8.986,
+      "changed_gt24_median_pct": 12.436,
+      "temporal_std_mean": 0.415,
+      "luma_mean": 3.814,
+      "midtone_pct": 1.187,
+      "near_black_pct": 0.0
+    },
+    "floor": {
+      "consecutive_mean_abs_median": 4.538,
+      "changed_gt8_median_pct": 6.235,
+      "changed_gt24_median_pct": 17.619,
+      "temporal_std_mean": 0.376,
+      "luma_mean": 2.679,
+      "midtone_pct": 1.501,
+      "near_black_pct": 0.0
+    }
+  }
+}

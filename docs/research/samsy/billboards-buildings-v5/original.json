@@ -1,0 +1,746 @@
+{
+  "name": "original",
+  "url": "https://samsy.ninja/",
+  "capturedAt": "2026-07-31T13:44:58.057Z",
+  "viewport": {
+    "width": 1535,
+    "height": 714
+  },
+  "deviceScaleFactor": 1.25,
+  "frameIntervalMs": 100,
+  "frameCount": 60,
+  "canvasBox": {
+    "x": 0,
+    "y": 0,
+    "width": 1535.3333740234375,
+    "height": 714
+  },
+  "frames": [
+    {
+      "index": 0,
+      "targetElapsed": 0,
+      "actualElapsed": 94.6836000000003,
+      "filename": "000-00000ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "targetElapsed": 100,
+      "actualElapsed": 221.33559999999852,
+      "filename": "001-00100ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "targetElapsed": 200,
+      "actualElapsed": 318.34149999999863,
+      "filename": "002-00200ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "targetElapsed": 300,
+      "actualElapsed": 423.2510000000002,
+      "filename": "003-00300ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "targetElapsed": 400,
+      "actualElapsed": 551.7757999999994,
+      "filename": "004-00400ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "targetElapsed": 500,
+      "actualElapsed": 669.0223000000005,
+      "filename": "005-00500ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "targetElapsed": 600,
+      "actualElapsed": 822.489999999998,
+      "filename": "006-00600ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "targetElapsed": 700,
+      "actualElapsed": 918.8073000000004,
+      "filename": "007-00700ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "targetElapsed": 800,
+      "actualElapsed": 1016.9544999999998,
+      "filename": "008-00800ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "targetElapsed": 900,
+      "actualElapsed": 1125.0010999999977,
+      "filename": "009-00900ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "targetElapsed": 1000,
+      "actualElapsed": 1228.8230000000003,
+      "filename": "010-01000ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "targetElapsed": 1100,
+      "actualElapsed": 1325.9848999999995,
+      "filename": "011-01100ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "targetElapsed": 1200,
+      "actualElapsed": 1420.1826999999976,
+      "filename": "012-01200ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "targetElapsed": 1300,
+      "actualElapsed": 1480.7174999999988,
+      "filename": "013-01300ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "targetElapsed": 1400,
+      "actualElapsed": 1549.9588000000003,
+      "filename": "014-01400ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "targetElapsed": 1500,
+      "actualElapsed": 1645.2212,
+      "filename": "015-01500ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "targetElapsed": 1600,
+      "actualElapsed": 1749.4015999999974,
+      "filename": "016-01600ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "targetElapsed": 1700,
+      "actualElapsed": 1843.1457999999984,
+      "filename": "017-01700ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "targetElapsed": 1800,
+      "actualElapsed": 1944.5492999999988,
+      "filename": "018-01800ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "targetElapsed": 1900,
+      "actualElapsed": 2036.448199999999,
+      "filename": "019-01900ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "targetElapsed": 2000,
+      "actualElapsed": 2122.9615999999987,
+      "filename": "020-02000ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "targetElapsed": 2100,
+      "actualElapsed": 2218.4879999999976,
+      "filename": "021-02100ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "targetElapsed": 2200,
+      "actualElapsed": 2323.2225,
+      "filename": "022-02200ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "targetElapsed": 2300,
+      "actualElapsed": 2439.1530999999995,
+      "filename": "023-02300ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "targetElapsed": 2400,
+      "actualElapsed": 2535.4565000000002,
+      "filename": "024-02400ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 25,
+      "targetElapsed": 2500,
+      "actualElapsed": 2645.639799999997,
+      "filename": "025-02500ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "targetElapsed": 2600,
+      "actualElapsed": 2749.4123999999974,
+      "filename": "026-02600ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "targetElapsed": 2700,
+      "actualElapsed": 2841.7281999999977,
+      "filename": "027-02700ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 28,
+      "targetElapsed": 2800,
+      "actualElapsed": 2939.5553,
+      "filename": "028-02800ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 29,
+      "targetElapsed": 2900,
+      "actualElapsed": 3042.6506999999983,
+      "filename": "029-02900ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "targetElapsed": 3000,
+      "actualElapsed": 3125.687299999998,
+      "filename": "030-03000ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 31,
+      "targetElapsed": 3100,
+      "actualElapsed": 3240.4138999999996,
+      "filename": "031-03100ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 32,
+      "targetElapsed": 3200,
+      "actualElapsed": 3382.7602000000006,
+      "filename": "032-03200ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 33,
+      "targetElapsed": 3300,
+      "actualElapsed": 3448.105199999998,
+      "filename": "033-03300ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 34,
+      "targetElapsed": 3400,
+      "actualElapsed": 3546.859199999999,
+      "filename": "034-03400ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 35,
+      "targetElapsed": 3500,
+      "actualElapsed": 3637.209899999998,
+      "filename": "035-03500ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 36,
+      "targetElapsed": 3600,
+      "actualElapsed": 3696.3379999999997,
+      "filename": "036-03600ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 37,
+      "targetElapsed": 3700,
+      "actualElapsed": 3824.1352000000006,
+      "filename": "037-03700ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 38,
+      "targetElapsed": 3800,
+      "actualElapsed": 3972.6993,
+      "filename": "038-03800ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 39,
+      "targetElapsed": 3900,
+      "actualElapsed": 4115.7179,
+      "filename": "039-03900ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 40,
+      "targetElapsed": 4000,
+      "actualElapsed": 4250.939399999999,
+      "filename": "040-04000ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 41,
+      "targetElapsed": 4100,
+      "actualElapsed": 4392.289799999999,
+      "filename": "041-04100ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 42,
+      "targetElapsed": 4200,
+      "actualElapsed": 4522.985999999997,
+      "filename": "042-04200ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 43,
+      "targetElapsed": 4300,
+      "actualElapsed": 4680.6793,
+      "filename": "043-04300ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 44,
+      "targetElapsed": 4400,
+      "actualElapsed": 4805.4313,
+      "filename": "044-04400ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 45,
+      "targetElapsed": 4500,
+      "actualElapsed": 4914.7909,
+      "filename": "045-04500ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 46,
+      "targetElapsed": 4600,
+      "actualElapsed": 5034.047500000001,
+      "filename": "046-04600ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 47,
+      "targetElapsed": 4700,
+      "actualElapsed": 5147.966099999998,
+      "filename": "047-04700ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 48,
+      "targetElapsed": 4800,
+      "actualElapsed": 5256.8872999999985,
+      "filename": "048-04800ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 49,
+      "targetElapsed": 4900,
+      "actualElapsed": 5386.227599999998,
+      "filename": "049-04900ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 50,
+      "targetElapsed": 5000,
+      "actualElapsed": 5483.5567999999985,
+      "filename": "050-05000ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 51,
+      "targetElapsed": 5100,
+      "actualElapsed": 5600.921399999999,
+      "filename": "051-05100ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 52,
+      "targetElapsed": 5200,
+      "actualElapsed": 5717.149999999998,
+      "filename": "052-05200ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 53,
+      "targetElapsed": 5300,
+      "actualElapsed": 5820.3213,
+      "filename": "053-05300ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 54,
+      "targetElapsed": 5400,
+      "actualElapsed": 5955.990899999997,
+      "filename": "054-05400ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 55,
+      "targetElapsed": 5500,
+      "actualElapsed": 6073.941899999998,
+      "filename": "055-05500ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 56,
+      "targetElapsed": 5600,
+      "actualElapsed": 6204.101999999999,
+      "filename": "056-05600ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 57,
+      "targetElapsed": 5700,
+      "actualElapsed": 6319.329399999999,
+      "filename": "057-05700ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 58,
+      "targetElapsed": 5800,
+      "actualElapsed": 6421.5046,
+      "filename": "058-05800ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    },
+    {
+      "index": 59,
+      "targetElapsed": 5900,
+      "actualElapsed": 6540.073099999998,
+      "filename": "059-05900ms.png",
+      "state": {
+        "videos": [],
+        "canvasDataset": {
+          "engine": "three.js r182dev webgpu"
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "mainScript": "https://samsy.ninja/assets/js/main-ITpbzWAg.js",
+  "resources": [
+    "https://samsy.ninja/assets/js/main-ITpbzWAg.js"
+  ]
+}
