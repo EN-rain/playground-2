@@ -1,0 +1,11 @@
+{
+  "name": "playground-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "bindgen": "caffeine-bindgen"
+  },
+  "devDependencies": {
+    "@caffeineai/bindgen": "latest"
+  }
+}
